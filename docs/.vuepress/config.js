@@ -7,7 +7,8 @@ module.exports = {
   ],
   themeConfig: {
     searchPlaceholder: 'Search...',
-    lastUpdated: 'Last Updated'
+    lastUpdated: 'Last Updated',
+    docsDir: 'docs',
   },
   sidebar: [
     {
