@@ -1,0 +1,17 @@
+{
+  "name": "openapi-guide",
+  "version": "1.0.0",
+  "description": "OpenAPI design and style guide",
+  "main": "index.js",
+  "repository": "git@github.com:ocular-d/openapi-guide.git",
+  "author": "sven <sven@so36.net>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@stoplight/spectral": "^5.9.1",
+    "vuepress": "^1.8.2"
+  }
+}
