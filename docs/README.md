@@ -22,3 +22,4 @@ Collection of rules taken from:
 - [Fast Healthcare Interoperability Resources (FHIR)](http://hl7.org/fhir/http.html#general)
 - [adidas API Guidelines](https://adidas.gitbook.io/api-guidelines/)
 
+Add the new VP components!

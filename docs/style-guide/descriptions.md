@@ -1,12 +1,17 @@
 # Descriptions
 
+**Add examples of good and NOT so got descriptions**
+
+Don’t repeat the name of the method in description, if we talk about GET, don’t say Get all users (example)
+
 Add descriptions to all server, endpoints, endpoint parameters and responses
 
 *Don’t auto-generate descriptions and summaries, make sure that the content has value for the user.*
 *Take you time to explain human understandable what the action is for!*
 
+- You can use Markdown to enhance them
+
 - Wording should be as clear and self-explaining as possible
-- Shorter is better
 
 Checklist for all descriptions
 Make sure each description is brief but complete and can be understood by users who don't have additional information about the API.

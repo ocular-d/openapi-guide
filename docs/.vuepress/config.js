@@ -41,6 +41,7 @@ module.exports = {
           'style-guide/foo',
           'style-guide/naming',
           'style-guide/descriptions',
+          'style-guide/summaries',
         ]
       },
       {
