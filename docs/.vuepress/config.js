@@ -44,6 +44,7 @@ module.exports = {
           'style-guide/descriptions',
           'style-guide/summaries',
           'style-guide/http-methods',
+          'style-guide/status-codes',
         ]
       },
       {

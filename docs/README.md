@@ -5,7 +5,7 @@ actionText: Get Started  →
 actionLink: /about
 ---
 
-This guide is written for public RESTAPIs.
+This guide is written for  RESTAPIs.
 
 We aim for the highest quality possible! The API and docs (API reference and additionally documentation like getting started, tutorials, etc) should be as clear and stunning as possible.
 
