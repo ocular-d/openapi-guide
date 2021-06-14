@@ -46,6 +46,7 @@ module.exports = {
         collapsable: false,
         children: [
           'linting/about',
+          'linting/rulesets',
         ]
     },
   ]
