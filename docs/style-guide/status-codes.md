@@ -5,7 +5,11 @@ To eliminate confusion for API users when an error occurs, we should handle erro
 
 This gives maintainers of the API enough information to understand the problem that’s occurred. We don’t want errors to bring down our system, so we can leave them unhandled, which means that the API consumer has to handle them.
 
-Common error HTTP status codes include:
+## Return succeed codes
+
+A successful method used against your resource should return a [200-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) response
+
+## Common error HTTP status codes include:
 
 | Status | Description |
 | ------ | ----------|
