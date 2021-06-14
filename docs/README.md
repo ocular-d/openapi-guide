@@ -10,4 +10,6 @@ Collection of rules taken from:
 - [DigitalOcean](https://github.com/digitalocean/openapi)
 - [Nexmo](https://github.com/Nexmo/api-specification)
 - [OpenAPI Community Style Guide](https://github.com/openapi-contrib/style-guides)
+- [Fast Healthcare Interoperability Resources (FHIR)](http://hl7.org/fhir/http.html#general)
+- [adidas API Guidelines](https://adidas.gitbook.io/api-guidelines/)
 
