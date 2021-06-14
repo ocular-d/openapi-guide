@@ -9,23 +9,31 @@ module.exports = {
     searchPlaceholder: 'Search...',
     lastUpdated: 'Last Updated',
     docsDir: 'docs',
-  },
-  sidebar: [
-    {
-      title: 'Design Guide',
-      path: '/design/',
-      collapsable: false,
-      children: [
+    sidebar: [
+      {
+        title: 'Design Guide',
+        path: '/design/',
+        collapsable: false,
+        children: [
           'design/about',
-    ]
-    },
-    {
-      title: 'Style Guide',
-      path: '/style-guide/',
-      collapsable: false,
-      children: [
+        ]
+      },
+      {
+        title: 'Style Guide',
+        path: '/style-guide/',
+        collapsable: false,
+        children: [
           'style-guide/foo',
-      ]
+        ]
+      },
+      {
+        title: 'Validation & Linting',
+        path: '/linting/',
+        collapsable: false,
+        children: [
+          'linting/about',
+        ]
     },
   ]
+  }
 }

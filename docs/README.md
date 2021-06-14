@@ -1,4 +1,10 @@
-# We love APIs
+---
+home: true
+title: We love APIs
+actionText: Get Started  →
+actionLink: /about
+---
+
 
 OpenAPI design and style guide.
 
