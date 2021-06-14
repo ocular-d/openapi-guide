@@ -1,3 +1,13 @@
 # We love APIs
 
 OpenAPI design and style guide.
+
+## Rules
+
+Collection of rules taken from:
+
+- [Box OpenAPI 3.0 Specification](https://github.com/box/box-openapi)
+- [DigitalOcean](https://github.com/digitalocean/openapi)
+- [Nexmo](https://github.com/Nexmo/api-specification)
+- [OpenAPI Community Style Guide](https://github.com/openapi-contrib/style-guides)
+
