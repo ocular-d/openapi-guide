@@ -39,3 +39,19 @@ Use `camelCase` unless stated otherwise
 
 Every identifier MUST be in American English and written in lowercase. An identifier SHOULD NOT contain acronyms. CamelCase (camelCase) MUST be used to delimit combined words.
 
+## Vocabulary
+Use web and industry standards where they make sense.
+
+For example use well-known terminology from Schema.org - Schema.org combined with standard vocabularies about e-discovery.
+
+### Sources
+
+- [IANA Link Relation Values](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
+- [Schema.org](http://schema.org/) ​, Activity Stream
+- [Micofromats, Dublin Core](https://dublincore.org/)
+- Industry Vocabularies
+- Internal Vocabularies
+
+This help creates a standard and improves SEO and search.
+By using well-know words it is more effortless for users to understand the API.
+

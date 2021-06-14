@@ -31,6 +31,7 @@ module.exports = {
         collapsable: false,
         children: [
           'design/about',
+          'design/design-first',
         ]
       },
       {
