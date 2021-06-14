@@ -43,6 +43,7 @@ module.exports = {
           'style-guide/naming',
           'style-guide/descriptions',
           'style-guide/summaries',
+          'style-guide/http-methods',
         ]
       },
       {
