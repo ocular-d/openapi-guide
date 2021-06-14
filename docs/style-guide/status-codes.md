@@ -1,5 +1,12 @@
 # HTTP status codes
 
+Handle errors gracefully and return standard error codes
+To eliminate confusion for API users when an error occurs, we should handle errors gracefully and return HTTP response codes that indicate what kind of error occurred.
+
+This gives maintainers of the API enough information to understand the problem that’s occurred. We don’t want errors to bring down our system, so we can leave them unhandled, which means that the API consumer has to handle them.
+
+Common error HTTP status codes include:
+
 | Status | Description |
 | ------ | ----------|
 | 400    | [Bad Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400) – This means that client-side input fails validation |
