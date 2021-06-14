@@ -20,6 +20,7 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Is this doc out of date? Suggest a change!',
     lastUpdated: 'Last Updated',
+    repo: 'ocular-d/openapi-guide',
     docsRepo: 'ocular-d/openapi-guide',
     docsDir: 'docs',
     docsBranch: 'main',
@@ -38,6 +39,8 @@ module.exports = {
         collapsable: false,
         children: [
           'style-guide/foo',
+          'style-guide/naming',
+          'style-guide/descriptions',
         ]
       },
       {

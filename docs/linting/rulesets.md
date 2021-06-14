@@ -1,5 +1,9 @@
 # Rulesets
 
+Rulesets are collections of rules written in JSON or YAML, which can be used to power powerful linting of other JSON or YAML files.
+
+See the [Spectral documentation](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md) for more info.
+
 Adjust links below to be real links
 Link to rules on GitHub
 
