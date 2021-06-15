@@ -1,6 +1,26 @@
-# Validation
+---
+title: Validation
+description: Validating API Description
+meta:
+  - name: "og:description"
+    content: OpenAPI design and style guide introduction
+  - name: keywords
+    content: OpenAPI design and style guide introduction
+tags:
+  - OpenAPI
+  - OAS
+  - design
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 Validate your OAS file using [Spectral](https://github.com/stoplightio/spectral "Spectral website").
+
+## Install
 
 To install Spectral you will need [Node.js](https://nodejs.org/en/ "Node.js website") and a package manager ([npm](https://www.npmjs.com/ "npm website") or [Yarn](https://yarnpkg.com/ "Yarn website")).
 
