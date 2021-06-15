@@ -1,4 +1,22 @@
-# Intro
+---
+title: Intro
+description: OpenAPI design and style guide introduction
+meta:
+  - name: "og:description"
+    content: OpenAPI design and style guide introduction
+  - name: keywords
+    content: OpenAPI design and style guide introduction
+tags:
+  - OpenAPI
+  - OAS
+  - design
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 Your API design influences how well developers and systems can consume it and even how they use it
 
