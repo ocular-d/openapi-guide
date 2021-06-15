@@ -4,7 +4,7 @@ module.exports = {
     ['vuepress-plugin-reading-time', true]
   ],
   title: 'OpenAPI Guide',
-  description: 'OpenAPI design and style guide',
+  description: 'OpenAPI design, style and documentation guide',
   base: "/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
