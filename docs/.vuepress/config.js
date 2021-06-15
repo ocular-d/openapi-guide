@@ -62,10 +62,10 @@ module.exports = {
       },
       {
         title: 'Validation & Linting',
-        path: '/linting/',
+        // path: '/linting/',
         collapsable: false,
         children: [
-          'linting/about',
+          'linting/validation',
           'linting/rulesets',
         ]
     },
