@@ -48,7 +48,7 @@ module.exports = {
       },
       {
         title: 'Style Guide',
-        path: '/style-guide/',
+        // path: '/style-guide/',
         collapsable: false,
         children: [
           'style-guide/naming',

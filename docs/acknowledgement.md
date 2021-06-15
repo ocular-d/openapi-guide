@@ -38,7 +38,7 @@ tags:
 
 *If you miss your name here, please open an issue on GitHub!*
 
-## Design
+## Content
 
 - [Swagger](https://swagger.io/)
 
