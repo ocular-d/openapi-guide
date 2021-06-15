@@ -11,3 +11,5 @@ Your API design influences how well developers and systems can consume it and ev
 ## To do
 
 Explain that we focus on APIs which are use by humans, add a note about different kinds of APIs, like public user API, internal API, system API
+
+API first strategy?
