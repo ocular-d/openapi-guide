@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    ['vuepress-plugin-element-tabs', true],
+  ],
   title: 'OpenAPI Guide',
   description: 'OpenAPI design and style guide',
   base: "/",

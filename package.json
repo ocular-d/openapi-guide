@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@stoplight/spectral": "^5.9.1",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-element-tabs": "^0.2.8"
   }
 }
