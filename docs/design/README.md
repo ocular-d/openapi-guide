@@ -38,6 +38,20 @@ Complete and concise: A complete API will make it possible for developers to mak
 
 Explain parameters and values: A stunning API explains and documents parameters and values of endpoints in an effortless human understandable way.
 
+# About
+
+API design is the collection of planning and architectural decisions you make when building an API.
+
+There is not a single approach to design APIs “the right way.” 
+
+Your API design influences how well developers and systems can consume it and even how they use it
+
+Good API design meets initial expectations and continues to behave consistently and predictably
+
+A good public and internal API focuses on: Functionality, usability and creating a nice user experience
+
+A good system API focuses on: Functionality and usability
+
 ## To do
 
 Explain that we focus on APIs which are use by humans, add a note about different kinds of APIs, like public user API, internal API, system API

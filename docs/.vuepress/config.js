@@ -34,7 +34,6 @@ module.exports = {
         path: '/design/',
         collapsable: false,
         children: [
-          'design/about',
           'design/design-first',
           'design/resources',
         ]
@@ -44,7 +43,6 @@ module.exports = {
         path: '/style-guide/',
         collapsable: false,
         children: [
-          'style-guide/foo',
           'style-guide/naming',
           'style-guide/resources-and-collections',
           'style-guide/urls',
