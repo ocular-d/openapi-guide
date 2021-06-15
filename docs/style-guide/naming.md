@@ -44,6 +44,14 @@ Use web and industry standards where they make sense.
 
 For example use well-known terminology from Schema.org - Schema.org combined with standard vocabularies about e-discovery.
 
+## Message Names
+
+Message names should be short and concise. Avoid unnecessary or redundant words. Adjectives can often be omitted if there is no corresponding message without the adjective. For example, the Shared in SharedProxySettings is unnecessary if there are no unshared proxy settings.
+
+Message names should not include prepositions (e.g. "With", "For"). Generally, message names with prepositions are better represented with optional fields on the message
+
+
+
 ### Sources
 
 - [IANA Link Relation Values](https://www.iana.org/assignments/link-relations/link-relations.xhtml)

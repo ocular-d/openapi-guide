@@ -32,6 +32,7 @@ module.exports = {
         children: [
           'design/about',
           'design/design-first',
+          'design/resources',
         ]
       },
       {
