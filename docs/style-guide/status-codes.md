@@ -21,3 +21,9 @@ A successful method used against your resource should return a [200-type](https:
 | 500 | [Internal server error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500) – This is a generic server error. It probably shouldn’t be thrown explicitly |
 | 502 | [Bad Gateway](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502) – This indicates an invalid response from an upstream server |
 | 503 | [Service Unavailable](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – This indicates that something unexpected happened on server side (It can be anything like server overload, some parts of the system failed, etc.) |
+
+<RRead>
+
+- [How to Think About HTTP Status Codes](https://www.mnot.net/blog/2017/05/11/status_codes "How to Think About HTTP Status Codes")
+
+</RRead>
