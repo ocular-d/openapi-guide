@@ -6,6 +6,14 @@ We aim for the highest quality possible! The API and docs (API reference and add
 
 The API is your contract!
 
+::: half Design
+What is design and why with link
+:::
+
+::: half Style guide
+What, why and [link](https://heise.de)
+:::
+
 ## Credits
 
 Collection of rules taken from:
