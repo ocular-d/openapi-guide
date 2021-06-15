@@ -30,6 +30,14 @@ module.exports = {
     docsBranch: 'main',
     sidebar: [
       {
+        title: 'Overview',
+        collapsable: false,
+        children: [
+          'about',
+          'acknowledgement',
+        ]
+      },
+      {
         title: 'Design Guide',
         path: '/design/',
         collapsable: false,
