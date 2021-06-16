@@ -58,7 +58,7 @@ If the file you want to lint is on your computer, you'll need to mount the direc
 docker run --rm -it -v $(pwd):/tmp stoplight/spectral lint "/tmp/file.yaml"
 ```
 
-# Using Spectral
+## Using Spectral
 
 Once installed Spectral, you can validate an OAS file (in YAML or JSON format) according to a given set of rules.
 Spectral has a predefined set of rules validating OpenAPI 3.x files.

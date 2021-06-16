@@ -39,9 +39,10 @@ module.exports = {
       },
       {
         title: 'Design Guide',
-        path: '/design/',
+        // path: '/design/',
         collapsable: false,
         children: [
+          'design/what-is-api-design',
           'design/design-first',
           'design/resources',
         ]
