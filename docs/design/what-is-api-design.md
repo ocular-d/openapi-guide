@@ -61,3 +61,11 @@ A good system API focuses on: Functionality and usability
 Explain that we focus on APIs which are use by humans, add a note about different kinds of APIs, like public user API, internal API, system API
 
 API first strategy?
+
+<RRead>
+
+- [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+- [Vinay Sahni](https://www.vinaysahni.com/)
+- [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
+
+</RRead>
