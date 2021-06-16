@@ -42,7 +42,29 @@ Explain parameters and values: A stunning API explains and documents parameters 
 
 API design is the collection of planning and architectural decisions you make when building an API.
 
-There is not a single approach to design APIs “the right way.” 
+# What is API Design
+
+API design refers to the process of developing application programming interfaces (APIs) that expose data and application functionality for use by developers and users.
+
+# Questions to ask before you start
+
+- What concrete outcomes do we want to achieve with these APIs?
+
+(source: https://www.redhat.com/en/topics/api/what-is-api-design)
+
+## Key requirements for the API
+Many of the API design opinions found on the web are academic discussions revolving around subjective interpretations of fuzzy standards as opposed to what makes sense in the real world. My goal with this post is to describe best practices for a pragmatic API designed for today's web applications. I make no attempt to satisfy a standard if it doesn't feel right. To help guide the decision making process, I've written down some requirements that the API must strive for:
+
+It should use web standards where they make sense
+It should be friendly to the developer and be explorable via a browser address bar
+It should be simple, intuitive and consistent to make adoption not only easy but pleasant
+It should provide enough flexibility to power majority of the Enchant UI
+It should be efficient, while maintaining balance with the other requirements
+An API is a developer's UI - just like any UI, it's important to ensure the user's experience is thought out carefully!
+
+(source: https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api )
+
+There is not a single approach to design APIs “the right way.”
 
 Your API design influences how well developers and systems can consume it and even how they use it
 

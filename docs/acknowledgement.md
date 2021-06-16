@@ -36,9 +36,11 @@ tags:
 
 - [Lando](https://lando.dev/)
 
-*If you miss your name here, please open an issue on GitHub!*
-
 ## Content
 
 - [Swagger](https://swagger.io/)
+- [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+- [Vinay Sahni](https://www.vinaysahni.com/)
+- [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
 
+*If you miss your name here, please open an issue on GitHub!*
