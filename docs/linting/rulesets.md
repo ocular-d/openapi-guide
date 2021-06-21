@@ -30,3 +30,10 @@ Link to rules on GitHub
 - `URI` template ([RFC 6570](https://tools.ietf.org/html/rfc6570)) cannot contain a `-` character
 - `HTTP` headers MUST use `Hyphenated-Pascal-Case` notation
 - `HTTP` headers SHOULD NOT include [`X-` headers](2). All non-standard headers are named without the `X-` prefix.
+
+<RRead>
+
+- [Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md "About rulesets")
+- [Custom Rulesets](https://meta.stoplight.io/docs/spectral/docs/guides/4-custom-rulesets.md "Custom rulesets")
+
+</RRead>
