@@ -31,6 +31,25 @@ Link to rules on GitHub
 - `HTTP` headers MUST use `Hyphenated-Pascal-Case` notation
 - `HTTP` headers SHOULD NOT include [`X-` headers](2). All non-standard headers are named without the `X-` prefix.
 
+## DigitalOcean
+
+- Response MUST include `ratelimit-x headers`
+- Object properties MUST include examples
+- Parameters MUST include examples
+- Headers MUST include examples
+- Endpoint MUST be a `$ref`
+- Path MUST include the version
+- Endpoint MUST a `$ref` to a file in resources/
+- Responses SHOULD contain common response - 401 (unauthorized)
+- Responses SHOULD contain common response - 429 (too many requests)
+- Responses SHOULD contain common response - 500 (server error)
+- `operationIds` MUST be snake cased (e.g. `snake_case`)
+- `operationIds` MUST follow naming conventions for method
+- Schema key MUST be snake cased (e.g. `snake_case`)
+- Parameter key MUST be snake cased (e.g. `snake_case`)
+- Example key MUST be snake cased (e.g. `snake_case`)
+- Response key MUST be snake cased (e.g. `snake_case`)
+
 <RRead>
 
 - [Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md "About rulesets")
