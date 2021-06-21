@@ -13,6 +13,7 @@ A successful method used against your resource should return a [200-type](https:
 
 | Status | Description |
 | ------ | ----------|
+| 303    | [See other](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303) |)
 | 400    | [Bad Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400) – This means that client-side input fails validation |
 | 401    | [Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401) – This means the user isn't authorized to access a resource. It usually returns when the user isn’t authenticated |
 | 403   | [Forbidden](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403) – This means the user is authenticated, but it’s not allowed to access a resource |
