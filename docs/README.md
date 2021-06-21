@@ -16,6 +16,11 @@ xfeatures:
 footer: Made with ❤ by people
 ---
 
+::: teaser
+Moin
+<img src="/code-snapshot.png"/>
+:::
+
 <div class="features">
   <div class="feature" v-for="feat in $page.frontmatter.xfeatures">
     <h2><a v-bind:href="feat.link">{{ feat.title }}</a></h2>
@@ -32,3 +37,4 @@ The API is your contract!
 ## To do
 
 - Add the new VP components!
+- Check https://github.com/leftxs/restful-api-guidelines

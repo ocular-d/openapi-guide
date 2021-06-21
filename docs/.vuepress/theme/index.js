@@ -15,5 +15,10 @@ module.exports = {
       type: 'center',
       defaultTitle: '',
     }],
+    ['container', {
+      type: 'teaser',
+      before: name => `<div class="teaser custom-block"><h2 class="custom-block-title">${name}</h2>`,
+      after: '</div>',
+    }],
   ],
 };
