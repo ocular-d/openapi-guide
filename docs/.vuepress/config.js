@@ -59,6 +59,7 @@ module.exports = {
           'style-guide/summaries',
           'style-guide/http-methods',
           'style-guide/status-codes',
+          'style-guide/security',
         ]
       },
       {
