@@ -30,6 +30,9 @@ module.exports = {
     docsRepo: 'ocular-d/openapi-guide',
     docsDir: 'docs',
     docsBranch: 'main',
+    nav: [
+      { text: 'Editorial Style Guide', link: 'https://editorial.ocular-d.tech/' }
+    ],
     sidebar: [
       {
         title: 'Overview',
