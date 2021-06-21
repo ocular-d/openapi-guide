@@ -1,5 +1,5 @@
 ---
-title: Acknowledgement
+title: Acknowledgements
 description: Thank you!
 sidebarDepth: 2
 meta:
