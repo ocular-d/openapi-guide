@@ -1,7 +1,9 @@
 module.exports = {
   plugins: [
     ['vuepress-plugin-element-tabs', true],
-    ['vuepress-plugin-reading-time', true]
+    ['vuepress-plugin-reading-time', true],
+    ['@xiaopanda/vuepress-plugin-code-copy', true],
+    ['vuepress-plugin-element-tabs', true],
   ],
   title: 'OpenAPI Guide',
   description: 'OpenAPI design, style and documentation guide',

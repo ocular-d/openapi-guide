@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@stoplight/spectral": "^5.9.1",
+    "@xiaopanda/vuepress-plugin-code-copy": "^1.0.3",
     "vuepress": "^1.8.2",
     "vuepress-plugin-element-tabs": "^0.2.8",
     "vuepress-plugin-reading-time": "^0.1.1"
