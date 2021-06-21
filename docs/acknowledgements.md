@@ -19,6 +19,11 @@ tags:
 
 ---
 
+This guide is created by aggregating content and drawing inspiration from various awesome API creators.
+Credit goes to them for their respective contribution.
+Our knowledge about APIs would be much more partial without them.
+A big thanks goes to:
+
 ## Spectral
 
 - [Stoplight](https://stoplight.io/)
