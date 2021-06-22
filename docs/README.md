@@ -3,7 +3,7 @@ home: true
 #title: We love APIs
 metaTitle: OpenAPI Guide | Design | Docs
 image: https://raw.githubusercontent.com/lando/lando/master/docs/.vuepress/public/images/hero-pink.png
-heroImage: /images/hero-pink.png
+heroImage: /images/oas-logo.png
 # actionText: Get Started  →
 # actionLink: /about
 pageClass: main-home
