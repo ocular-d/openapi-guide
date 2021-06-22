@@ -24,9 +24,9 @@ Finally, getting an API experience right implies writing awesome code,
 but also looking after additional documentation like getting started, tutorials, and so on.
 
 ::: half Design
-What is design and why with link
+Find out [what API design is](design/what-is-api-design.md "Article on what API design is")
 :::
 
 ::: half Style guide
-What, why and [link](https://heise.de)
+Learn how to [style your API like a pro]
 :::
