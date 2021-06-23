@@ -74,6 +74,7 @@ module.exports = {
         children: [
           'linting/validation',
           'linting/rulesets',
+          'linting/ci-cd',
         ]
     },
     {
