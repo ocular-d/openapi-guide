@@ -76,6 +76,16 @@ module.exports = {
           'linting/rulesets',
         ]
     },
+    {
+      title: 'Documentation',
+      // path: '/linting/',
+      collapsable: false,
+      children: [
+        'documentation/api-reference',
+        'documentation/quick-start',
+        'documentation/how-to',
+      ]
+  },
   ]
   }
 }
