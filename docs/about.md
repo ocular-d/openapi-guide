@@ -13,3 +13,7 @@ What is design and why with link
 ::: half Style guide
 What, why and [link](https://heise.de)
 :::
+
+::: half Documentation
+What, why and [link](https://heise.de)
+:::
