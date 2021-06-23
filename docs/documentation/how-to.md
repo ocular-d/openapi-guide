@@ -30,6 +30,6 @@ Maybe a query string parameter exists like `?page=1` or `?cursor=s24dfkjfhkdf`, 
 A tutorial for how pagination works for your API is a great place to explain why you chose your specific pagination approach of the many that exist, and explain how your users should interact with it.
 E.g.: Slack and Stripe.
 
-Other common tutorials are "Common Errors" which explain how your error objects work, what common status codes mean so you don't need to document `500`, `501`, `502` on every single operation, and any other useful information that can help users troubleshoot trouble.
+Other common tutorials are "Common Errors" which explain how your error objects work, what [common status codes](../style-guide/status-codes) mean so you don't need to document `500`, `501`, `502` on every single operation, and any other useful information that can help users troubleshoot trouble.
 
 **TO DO: Add more examples about/of how-to's, link to some**
