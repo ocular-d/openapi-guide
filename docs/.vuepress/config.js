@@ -85,6 +85,7 @@ module.exports = {
         'documentation/api-reference',
         'documentation/quick-start',
         'documentation/how-to',
+        'documentation/generate',
       ]
   },
   ]
