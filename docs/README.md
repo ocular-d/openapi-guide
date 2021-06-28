@@ -9,11 +9,11 @@ heroImage: /images/oas-logo.png
 pageClass: main-home
 features:
 - title: Design
-  details: One click installer, cross-platform, simple config file, sane defaults and reduced complexity for power features
+  details: Design stunning API(s) with the focus on functionality, usability and creating a nice user experience
 - title: Style Guide
-  details: A single dev tool for all your projects. Lock down services, tools, dependencies and automation on a per-repo basis
+  details: Standards for consistent, stable and extendable API(s)
 - title: Documentation
-  details: Free yourself from the mind-forged manacles of lesser dev tools. Save time, headaches, frustration and do more real work
+  details: Beautiful reference docs, quick-start guides and how-to's are part of awesome API(s)
 footer: Made with ❤ by people
 ---
 
