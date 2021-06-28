@@ -19,7 +19,8 @@ The basic idea is that you create an API contract before doing a full code imple
 
 ## Other
 
-API First is the way to go, it makes things so much simpler, and it’s what OpenAPI was made for. When you start with an API spec, you can start building docs, tests and client/server code right away. It’s more than a contract; it’s more than just docs; it’s an interface you’re building with words.
+API First is the way to go, it makes things so much simpler, and it’s what OpenAPI was made for. When you start with an API spec, you can start building docs, tests and client/server code right away.<br>
+**It’s more than a contract; it’s more than just docs; it’s an interface you’re building with words**.
 
 <RRead>
 
