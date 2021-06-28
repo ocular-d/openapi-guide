@@ -31,16 +31,12 @@ Many of the API design opinions found on the web are academic discussions revolv
 - It should be efficient, while maintaining balance with the other requirements
 - An API is a developer's UI - just like any UI, it's important to ensure the user's experience is thought out carefully!
 
-# Public vs Internal vs System
+## Public vs Internal vs System
 
-[add a note about different kinds of APIs, like public user API, internal API, system API]
+[Something here about different kinds of APIs, like public user API, internal API, system API]
 
 - A good public and internal API focuses on: Functionality, usability and creating a nice user experience
 - A good system API focuses on: Functionality and usability
-
-## Coming soon...
-
-[API first strategy]
 
 <RRead>
 
