@@ -8,7 +8,7 @@ Adopt a consistent naming convention in URIs.
 
 - Use plural nouns for URIs that reference collections
 - Organize URIs for collections and items into a hierarchy.
-For example, `/customers` is the path to the customers collectionm and /customers/5 is the path to the customer with ID 5.
+For example, `/customers` is the path to the customers collection and `/customers/5` is the path to the customer with ID 5.
 This approach helps to keep the web API intuitive.
 Also, many web API frameworks can route requests based on parameterized URI paths, so you could define a route for the path `/customers/{id}`.
 
@@ -20,7 +20,7 @@ You could also go in the other direction,
 and represent the association from an order back to a customer with a URI such as `/orders/99/customer`.
 However, extending this model too far can become cumbersome to implement.
 A better solution is to provide navigable links to associated resources in the body of the HTTP response message.
-This mechanism is described in more detail in the section [Use HATEOAS to enable navigation to related resources](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design#use-hateoas-to-enable-navigation-to-related-resources).
+This mechanism is described in more detail in the section Use [HATEOAS](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design#use-hateoas-to-enable-navigation-to-related-resources) to enable navigation to related resources.
 
 In more complex systems, it can be tempting to provide URIs that enable a client to navigate through several levels of relationships, such as `/customers/1/orders/99/products`.
 However, this level of complexity can be difficult to maintain and is inflexible if the relationships between resources change in the future.

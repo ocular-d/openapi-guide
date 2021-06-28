@@ -22,7 +22,7 @@ to read a few concepts and principles that such providers follow in their API de
 - API design (e.g., description, schema) is the master of truth, not the API implementation.
 - API implementation MUST always be compliant to particular API design which represents the contract between API, and it's consumer.
 
-### vmware
+### VMware
 
 The basic idea is that you create an API contract before doing a full code implementation.
 The human-readable API specification becomes the first deliverable, allowing fast feedback from various stakeholders.
