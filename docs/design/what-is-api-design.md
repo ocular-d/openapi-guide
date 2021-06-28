@@ -1,32 +1,21 @@
 # What is API design
 
-Your API design influences how well developers and systems can consume it and even how they use it
+API design is the process of planning and making architectural decisions when building an API.
+Designing something involves adopting processes and practices that put users at the center.
+As such, designing APIs means considering that they're used by humans.
 
-- Good API design meets initial expectations and continues to behave consistently and predictably
+Your design will influences how well developers and systems can consume the API and even how they use it.
 
-- A good public and internal API focuses on: Functionality, usability and creating a nice user experience
+Let's look at the features of a well-designed API:
 
-- A good system API focuses on: Functionality and usability
-
-Put your audience first!
-
-In general, an effective API design will have the following characteristics:
-
-Easy to read and work with: A well-designed API will be easy to work with, and its resources and associated operations can quickly be memorized by developers who work with it constantly.
-
-Hard to misuse: Implementing and integrating with an API with good design will be a straightforward process, and writing incorrect code will be a less likely outcome. It has informative feedback, and doesn’t enforce strict guidelines on the API’s end consumer.
-
-Complete and concise: A complete API will make it possible for developers to make full- fledged applications against the data you expose. Completeness happens over time usually, and most API designers and developers incrementally build on top of existing APIs. It is an ideal which every engineer or company with an API must strive towards.
-
-Explain parameters and values: A stunning API explains and documents parameters and values of endpoints in an effortless human understandable way.
-
-# About
-
-API design is the collection of planning and architectural decisions you make when building an API.
-
-# What is API Design
-
-API design refers to the process of developing application programming interfaces (APIs) that expose data and application functionality for use by developers and users.
+- It focuses on its users
+- It meets initial expectations and continues to behave consistently and predictably
+- It's easy to work with. This means that its resources and operations are relatable and can be easily memorized
+- It's hard to misuse. This means that implementing and integrating with an API with good design will be a straightforward process, and writing incorrect code will be a less likely outcome. It has informative feedback, and doesn’t enforce strict guidelines on the API’s end consumer
+- It's complete and concise. A complete API will make it possible for developers
+to create full-fledged applications that use the data you expose.
+Completeness is a goal, not a starting point.
+However, it should be a milestone that is considered from the beginning and that every API contributor strives towards
 
 # Questions to ask before you start
 
@@ -35,6 +24,7 @@ API design refers to the process of developing application programming interface
 (source: https://www.redhat.com/en/topics/api/what-is-api-design)
 
 ## Key requirements for the API
+
 Many of the API design opinions found on the web are academic discussions revolving around subjective interpretations of fuzzy standards as opposed to what makes sense in the real world. My goal with this post is to describe best practices for a pragmatic API designed for today's web applications. I make no attempt to satisfy a standard if it doesn't feel right. To help guide the decision making process, I've written down some requirements that the API must strive for:
 
 It should use web standards where they make sense
@@ -56,9 +46,15 @@ A good public and internal API focuses on: Functionality, usability and creating
 
 A good system API focuses on: Functionality and usability
 
-## To do
+# Public vs Internal vs System
 
-Explain that we focus on APIs which are use by humans, add a note about different kinds of APIs, like public user API, internal API, system API
+[add a note about different kinds of APIs, like public user API, internal API, system API]
+
+- A good public and internal API focuses on: Functionality, usability and creating a nice user experience
+
+- A good system API focuses on: Functionality and usability
+
+## To do
 
 API first strategy?
 

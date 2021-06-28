@@ -39,7 +39,7 @@ module.exports = {
         collapsable: false,
         children: [
           'about',
-          'acknowledgement',
+          'acknowledgements',
         ]
       },
       {
