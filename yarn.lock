@@ -1533,6 +1533,11 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@xiaopanda/vuepress-plugin-code-copy@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@xiaopanda/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.0.3.tgz#fb507e27ae97b7ca73de12d32db5c7d49efc741c"
+  integrity sha512-m9j3OMJh2wAO07a3MvAGj7RnlZcH9J7jMkf+VMaurNKQFcl2MxCHjLDiLgRB7Zs4DVbFzHnshoYl/pCJ4HZxOg==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

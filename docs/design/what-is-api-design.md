@@ -43,5 +43,7 @@ Many of the API design opinions found on the web are academic discussions revolv
 - [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 - [Vinay Sahni](https://www.vinaysahni.com/)
 - [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
+- [REST API Design - Resource Modeling](https://www.thoughtworks.com/de/insights/blog/rest-api-design-resource-modeling)
+- [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 </RRead>

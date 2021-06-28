@@ -23,10 +23,22 @@ can ensure that the product is an API users love using.
 Finally, getting an API experience right implies writing awesome code,
 but also looking after additional documentation like getting started, tutorials, and so on.
 
+## About this guide
+
+This guide is structured in four main chapters.
+
 ::: half Design
-Find out [what API design is](design/what-is-api-design.md "Article on what API design is")
+Focus on functionality, usability and creating a nice user experience.
 :::
 
 ::: half Style guide
-Learn how to [style your API like a pro]
+Standards for consistent, stable and extendable APIs.
+:::
+
+::: half Validation and Linting
+Ensure good quality.
+:::
+
+::: half Documentation
+Beautiful reference docs, quick-start guides and tutorials are part of awesome APIs.
 :::

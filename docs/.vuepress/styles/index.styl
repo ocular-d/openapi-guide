@@ -31,6 +31,24 @@
       color $textColor
     a
       color $ocean
+  &.teaser
+    margin auto
+    display block
+    text-align center
+    font-weight lighter
+    background-color $boxBgColor
+    border-top-color $boxBgColor
+    padding 0.8rem 1.6rem
+    border-radius 4px
+    transition background-color .1s ease
+    //box-sizing border-box
+    width auto
+    img
+      display block
+      margin-left auto
+      margin-right auto
+    .custom-block-title
+      border-bottom-width 0
 
 /* end of Custom Blocks and Admonitions */
 
@@ -88,3 +106,41 @@ h1, h2, h3
     border-right: 1px solid #eaecef;
     overflow-y: auto;
 }
+
+/* pint half */
+.point,
+.point-half
+  width 32%
+  display inline-block
+  vertical-align top
+  box-sizing border-box
+  padding 0 2em
+  text-align center
+  h3
+    color lighten($landoPink, 18%)
+    font-family "Poppins", "Helvetica Neue", Arial, sans-serif
+    font-size 1.7em
+    padding .66em 0.24em 0
+    margin 0
+    letter-spacing -2px
+  p
+    font-family "Source Sans Pro", "Helvetica Neue", Arial, sans-serif
+    font-size 1.1em
+    word-spacing 0.05em
+    line-height 1.5
+.point-half
+  width 48%
+  text-align left
+  padding-left 0
+
+.custom-block.third,
+.custom-block.half
+  width 32%
+  display inline-block
+  vertical-align top
+  box-sizing border-box
+.custom-block.half
+  width 48%
+.custom-block.center
+  text-align center
+  padding 3em

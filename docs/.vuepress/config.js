@@ -1,7 +1,9 @@
 module.exports = {
   plugins: [
     ['vuepress-plugin-element-tabs', true],
-    ['vuepress-plugin-reading-time', true]
+    ['vuepress-plugin-reading-time', true],
+    ['@xiaopanda/vuepress-plugin-code-copy', true],
+    ['vuepress-plugin-element-tabs', true],
   ],
   title: 'OpenAPI Guide',
   description: 'OpenAPI design, style and documentation guide',
@@ -28,6 +30,9 @@ module.exports = {
     docsRepo: 'ocular-d/openapi-guide',
     docsDir: 'docs',
     docsBranch: 'main',
+    nav: [
+      { text: 'Editorial Style Guide', link: 'https://editorial.ocular-d.tech/' }
+    ],
     sidebar: [
       {
         title: 'Overview',
@@ -59,6 +64,7 @@ module.exports = {
           'style-guide/summaries',
           'style-guide/http-methods',
           'style-guide/status-codes',
+          'style-guide/security',
         ]
       },
       {
@@ -68,8 +74,20 @@ module.exports = {
         children: [
           'linting/validation',
           'linting/rulesets',
+          'linting/ci-cd',
         ]
     },
+    {
+      title: 'Documentation',
+      // path: '/linting/',
+      collapsable: false,
+      children: [
+        'documentation/api-reference',
+        'documentation/quick-start',
+        'documentation/how-to',
+        'documentation/generate',
+      ]
+  },
   ]
   }
 }

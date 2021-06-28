@@ -24,7 +24,7 @@ Credit goes to them for their respective contribution.
 Our knowledge about APIs would be much more partial without them.
 
 *We're doing our best to give credit to whomever inspired this guide. However, we're human and we can make mistakes.
-If you think you should appear in this list, open an issue on GitHub!*
+If you think you should appear in this list, open an [issue](https://github.com/ocular-d/openapi-guide/issues/new/choose) on GitHub!*
 
 A big thanks goes to:
 
@@ -51,4 +51,9 @@ A big thanks goes to:
 - [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 - [Vinay Sahni](https://www.vinaysahni.com/)
 - [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
+- [Tom Johnson](https://idratherbewriting.com/)
+- [Michael Amundsen](https://www.linkedin.com/in/mamund/)
+- [Arnaud Lauret](https://apihandyman.io/)
+- [VMware](https://www.vmware.com/)
+
 
