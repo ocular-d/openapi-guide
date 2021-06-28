@@ -51,4 +51,8 @@ A big thanks goes to:
 - [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 - [Vinay Sahni](https://www.vinaysahni.com/)
 - [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
+- [Tom Johnson](https://idratherbewriting.com/)
+- [Michael Amundsen](https://www.linkedin.com/in/mamund/)
+- [Arnaud Lauret](https://apihandyman.io/)
+
 
