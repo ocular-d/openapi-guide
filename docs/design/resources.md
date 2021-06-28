@@ -1,5 +1,7 @@
 # Resources
 
+A collection of resources to delve into API design principles and best practices.
+
 ## Video
 
 <YouTube url="https://www.youtube.com/embed/wmtmmMOw0aY" />
