@@ -1,25 +1,39 @@
-# Design first
+# Why design-first
 
-Also know as API-first or Contract First
+Design-first, also known as API-first, or contract-first, is a process where the API is designed before it's coded.
+Doing so allows to apply some principles of design thinking to the API, such as:
 
-- Better User experience
-- Design-driven development - API designers use the API design to drive development efforts
-- Parallel work - Multiple stakeholders work in parallel (API designers, API consumers, technical writers, QA)
+- Users are the starting point - A pleasant user experience is the north star
+- Design-driven development - Development efforts are driven by API designers,
+- Parallel work - Stakeholders (API designers, API consumers, technical writers, QA) work in parallel and transparently
 
-## Adidas
+## Some design-first principles
 
-Everyone MUST follow the API First principle.
-The API first principle is an extension of contract-first principle. Therefore, a development of an API MUST always start with API design without any upfront coding activities.
-API design (e.g., description, schema) is the master of truth, not the API implementation.
-API implementation MUST always be compliant to particular API design which represents the contract between API, and it's consumer.
+As mentioned in the [Acknoledgments section](../acknowledgements.md "Acknowledgements), this guide is a collection
+of ideas and best practices from world-class API providers.
 
-## vmware
+The best way to understand the benefits of design-first APIs is
+to read a few concepts and principles that such providers follow in their API design practice.
 
-The basic idea is that you create an API contract before doing a full code implementation. The human-readable API specification becomes the first deliverable, allowing fast feedback from various stakeholders. These rapid iterations are a game changer, as changing the API specification takes minutes not hours or days and all stakeholders have the same understanding and speak the same language. Once the team determines that the API specification is “good enough”, the skeleton of a full application can be generated. Many different programming languages are supported.
+### Adidas
 
-## Other
+- Everyone MUST follow the API First principle.
+- The API first principle is an extension of contract-first principle. Therefore, a development of an API MUST always start with API design without any upfront coding activities.
+- API design (e.g., description, schema) is the master of truth, not the API implementation.
+- API implementation MUST always be compliant to particular API design which represents the contract between API, and it's consumer.
 
-API First is the way to go, it makes things so much simpler, and it’s what OpenAPI was made for. When you start with an API spec, you can start building docs, tests and client/server code right away. It’s more than a contract; it’s more than just docs; it’s an interface you’re building with words.
+### vmware
+
+The basic idea is that you create an API contract before doing a full code implementation.
+The human-readable API specification becomes the first deliverable, allowing fast feedback from various stakeholders.
+These rapid iterations are a game changer, as changing the API specification takes minutes not hours or days
+and all stakeholders have the same understanding and speak the same language.
+Once the team determines that the API specification is “good enough”,
+the skeleton of a full application can be generated. Many different programming languages are supported.
+
+### Others
+
+API-first is the way to go, it makes things so much simpler, and it’s what OpenAPI was made for. When you start with an API spec, you can start building docs, tests and client/server code right away. It’s more than a contract; it’s more than just docs; it’s an interface you’re building with words.
 
 <RRead>
 
