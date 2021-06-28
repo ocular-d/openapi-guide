@@ -9,11 +9,11 @@ heroImage: /images/oas-logo.png
 pageClass: main-home
 features:
 - title: Design
-  details: Design stunning API(s) with the focus on functionality, usability and creating a nice user experience
+  details: Design stunning APIs with the focus on functionality, usability and creating a nice user experience
 - title: Style Guide
-  details: Standards for consistent, stable and extendable API(s)
+  details: Standards for consistent, stable and extendable APIs
 - title: Documentation
-  details: Beautiful reference docs, quick-start guides and how-to's are part of awesome API(s)
+  details: Beautiful reference docs, quick-start guides and tutorials are part of awesome APIs
 footer: Made with ❤ by people
 ---
 
