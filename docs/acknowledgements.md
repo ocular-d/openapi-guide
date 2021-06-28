@@ -54,5 +54,6 @@ A big thanks goes to:
 - [Tom Johnson](https://idratherbewriting.com/)
 - [Michael Amundsen](https://www.linkedin.com/in/mamund/)
 - [Arnaud Lauret](https://apihandyman.io/)
+- [VMware](https://www.vmware.com/)
 
 
