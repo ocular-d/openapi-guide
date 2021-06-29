@@ -98,7 +98,9 @@ Message names should be short and concise. Avoid unnecessary or redundant words.
 
 Message names should not include prepositions (e.g. "With", "For"). Generally, message names with prepositions are better represented with optional fields on the message
 
-### Sources
+## Sources
+
+The content of this section is collected from and inspired by:
 
 - [IANA Link Relation Values](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
 - [Schema.org](http://schema.org/) ​, Activity Stream
