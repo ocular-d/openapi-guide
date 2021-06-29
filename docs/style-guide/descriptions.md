@@ -1,6 +1,5 @@
 # Descriptions
 
-
 Descriptions are among the pieces of an API that are most consumed by humans
 and they can be added to almost every element of an API.
 As such, they need to be user-friendly and add value, because users will use them to understand your API.
