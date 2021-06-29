@@ -33,6 +33,8 @@ and then `/orders/99/products` to find the products in this order.
 Avoid requiring resource URIs more complex than collection/item/collection.
 :::
 
+Further information in the [Resources and collections section](resources-and-collections.md "Resources and collections section")
+
 ## Keep requests small
 
 The more requests, the bigger the load.
