@@ -1,11 +1,14 @@
 # Summaries
 
-**maybe add a link to a spectral rule?**
+Summaries are also an important part of the API documentation because they are displayed in key parts of the navigation.
+Users often use them to understand whether an endpoint or item is relevant to them,
+so their goal is to hint at what the item is enabling users to do.
 
-Don’t repeat the name of the method in summary, if we talk about GET, don’t say Get all users (example)
+Follow these simple tips for summaries:
 
-Wording should be as clear and self-explaining as possible
+- Add summaries to endpoints
+- Don’t repeat the name of the method in summary, if we talk about GET, don’t say Get all users (example)
+- Wording should be as clear and self-explaining as possible
+- Shorter is better
 
-Shorter is better
-
-Add summaries to endpoints
+[maybe add a link to a spectral rule?]
