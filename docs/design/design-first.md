@@ -42,5 +42,6 @@ API First is the way to go, it makes things so much simpler, and it’s what Ope
 - [API-First Approach for Building Products](https://swagger.io/resources/articles/adopting-an-api-first-approach/ "API-First Approach")
 - [Understanding API-First Development](https://tanzu.vmware.com/developer/guides/microservices/api-first-development/)
 - [Best Practices in API Design](https://swagger.io/resources/articles/best-practices-in-api-design/)
+- [Principles of API First Design Thinking](https://hackernoon.com/principles-of-api-first-design-thinking-x71t35c5)
 
 </RRead>
