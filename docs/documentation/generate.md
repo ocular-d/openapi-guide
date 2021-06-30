@@ -24,6 +24,12 @@ Browse the [docs](https://stoplight.io/open-source/elements/).
 
 ![Elements screenshot](/images/elements.png)
 
+:::warning Info
+With Stoplight Elements you can use [Stoplight Flavored Markdown (SMD)](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to enhance your Markdown.
+
+By leveraging comments to store the annotations, Stoplight Flavored Markdown degrades gracefully when rendered in other CommonMark-compatible Markdown renderers (GitHub, for example).
+:::
+
 ## RapiDoc
 
 Custom Element for Open-API spec viewing.
