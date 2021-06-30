@@ -59,7 +59,6 @@ module.exports = {
         children: [
           'style-guide/naming',
           'style-guide/resources-and-collections',
-          'style-guide/urls',
           'style-guide/descriptions',
           'style-guide/summaries',
           'style-guide/http-methods',
