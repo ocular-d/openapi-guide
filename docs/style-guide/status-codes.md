@@ -1,28 +1,36 @@
 # HTTP status codes
 
-Handle errors gracefully and return standard error codes
-To eliminate confusion for API users when an error occurs, we should handle errors gracefully and return HTTP response codes that indicate what kind of error occurred.
+Giving relevant feedback to users on the status of each operation
+can mark the difference between a good and a bad API experience.
 
-This gives maintainers of the API enough information to understand the problem that’s occurred. We don’t want errors to bring down our system, so we can leave them unhandled, which means that the API consumer has to handle them.
+To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes.
 
-## Return succeed codes
+Doing so gives both consumers and maintainers of the API enough information to understand what's going on.
+Also, assume that your API will make errors, or that users will when using it.
+Underestimating the fact that errors will occur and not preparing your API to handle them properly and give relevant feedback
+will leave users with no way to understand what's going on, creating friction.
 
-A successful method used against your resource should return a [200-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) response
+## Success codes
 
-## Common error HTTP status codes include:
+Also successful operations require status codes.
+A successful operation on a resource must return a [200-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) response.
+
+## Common error HTTP codes
+
+Common HTTP error status codes include:
 
 | Status | Description |
 | ------ | ----------|
-| 303    | [See other](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303) |)
+| 303    | [See other](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303)|
 | 400    | [Bad Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400) – This means that client-side input fails validation |
-| 401    | [Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401) – This means the user isn't authorized to access a resource. It usually returns when the user isn’t authenticated |
-| 403   | [Forbidden](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403) – This means the user is authenticated, but it’s not allowed to access a resource |
-| 404  | [Not Found](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404) – This indicates that a resource is not found |
-| 412 | [Precondition Failed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412) client error response code indicates that access to the target resource has been denied. <br><br> This happens with conditional requests on methods other than `GET` or `HEAD` when the condition defined by the `If-Unmodified-Since` or `If-None-Match` headers is not fulfilled.<br><br>In that case, the request, usually an upload or a modification of a resource, cannot be made and this error response is sent back |
-| 429 | [Too many requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429) - This means the user has sent too many requests in a given amount of time ("rate limiting")
-| 500 | [Internal server error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500) – This is a generic server error. It probably shouldn’t be thrown explicitly |
-| 502 | [Bad Gateway](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502) – This indicates an invalid response from an upstream server |
-| 503 | [Service Unavailable](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – This indicates that something unexpected happened on server side (It can be anything like server overload, some parts of the system failed, etc.) |
+| 401    | [Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401) – The user isn't authorized to access a resource. It usually returns when the user isn’t authenticated |
+| 403   | [Forbidden](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403) – The user is authenticated, but it’s not allowed to access a resource |
+| 404  | [Not Found](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404) – A resource is not found |
+| 412 | [Precondition Failed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412) - Access to the target resource has been denied. <br><br> This happens with conditional requests on methods other than `GET` or `HEAD` when the condition defined by the `If-Unmodified-Since` or `If-None-Match` headers is not fulfilled.<br><br>In that case, the request, usually an upload or a modification of a resource, cannot be made and this error response is sent back |
+| 429 | [Too many requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429) - The user has sent too many requests in a given amount of time ("rate limiting")
+| 500 | [Internal server error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500) – Generic server error. It probably shouldn’t be thrown explicitly |
+| 502 | [Bad Gateway](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502) – Invalid response from an upstream server |
+| 503 | [Service Unavailable](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – Something unexpected happened on server side. For example, it can be a server overload or that some parts of the system failed |
 
 <RRead>
 

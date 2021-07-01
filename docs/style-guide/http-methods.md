@@ -1,19 +1,24 @@
 # HTTP methods
 
-Describe resource functionality with HTTP methods
-All resources have a set of methods that can be operated against them to work with the data being exposed by the API.
+All resources have a set of methods that they support and that allow to manage the data they expose.
+Each method allows for a unique type of action on the data.
 
-REStful APIs comprise majorly of HTTP methods which have well-defined and unique actions against any resource.
+Especially REStful APIs consist of HTTP methods which have well-defined and unique actions
+that allow CRUD operations against resources.
 
-Here’s a list of commonly used HTTP methods that define the CRUD operations for any resource or collection in a  RESTful API.
+Here’s a list of commonly used HTTP methods
+that define the CRUD operations for any resource or collection in a RESTful API.
 
 | Method | Description |
-| ------ | :----------:|
-| GET    | Used to retrieve a representation of a resource |
-| POST   | Used to create new resources and sub-resources  |
-| PUT    | Used to update existing resources               |
-| PATCH  | Used to update existing resources               |
-| DELETE | Used to delete existing resources               |
+| ------ | ---------- |
+| GET    | Retrieve a representation of a resource                            |
+| POST   | Create new resources and sub-resources                             |
+| PUT    | Update existing resources by overwriting their entire content      |
+| PATCH  | Update existing resources by only modifying a part of the resource |
+| DELETE | Used to delete existing resources                                  |
 
-**Differences between PUT and PATCH** \
-A `PUT` request will replace the entire content of the resource at the location while a `PATCH` request, on the other hand, is used to make changes to a part of the resource at a location.
+:::tip Difference between PUT and PATCH
+It's important to understand the nuances between these two methods, as they have different consequences on a resource's content.
+- A `PUT` request will replace the entire content of the resource at the location
+- A `PATCH` request, on the other hand, is used to make changes to a part of the resource at a location
+:::
