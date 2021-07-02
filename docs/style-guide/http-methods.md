@@ -19,6 +19,7 @@ that define the CRUD operations for any resource or collection in a RESTful API.
 
 :::tip Difference between PUT and PATCH
 It's important to understand the nuances between these two methods, as they have different consequences on a resource's content.
+
 - A `PUT` request will replace the entire content of the resource at the location
 - A `PATCH` request, on the other hand, is used to make changes to a part of the resource at a location
 :::

@@ -72,7 +72,7 @@ module.exports = {
         collapsable: false,
         children: [
           'linting/validation',
-          'linting/rulesets',
+          // 'linting/rulesets',
           'linting/ci-cd',
         ]
     },

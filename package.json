@@ -8,11 +8,17 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:alex": "alex ./docs",
+    "docs:markdown": "./node_modules/.bin/markdownlint docs/**/*.md",
+    "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md' ! -path './archive/*' | xargs -L1 markdown-link-check -c .mlc_config.json --quiet"
   },
   "devDependencies": {
     "@stoplight/spectral": "^5.9.1",
     "@xiaopanda/vuepress-plugin-code-copy": "^1.0.3",
+    "alex": "^9.1.0",
+    "markdown-link-check": "^3.8.7",
+    "markdownlint-cli": "^0.27.1",
     "vuepress": "^1.8.2",
     "vuepress-plugin-element-tabs": "^0.2.8",
     "vuepress-plugin-reading-time": "^0.1.1"

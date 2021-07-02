@@ -25,8 +25,12 @@ and represent the association from an order back to a customer with a URI such a
 
 Extending this model too far can become cumbersome to implement.
 
+<!-- markdownlint-disable -->
+
 A better solution is to provide navigable links to associated resources in the body of the HTTP response message.
 This mechanism is described in more detail in the section [Use HATEOAS](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design#use-hateoas-to-enable-navigation-to-related-resources) to enable navigation to related resources.
+
+<!-- markdownlint-enable -->
 
 In more complex systems, it can be tempting to provide URIs that enable a client to navigate through several levels of relationships, such as `/customers/1/orders/99/products`.
 
@@ -55,7 +59,7 @@ that can be retrieved with a single request.
 However, you need to balance this approach against the overhead of fetching data that the client doesn't need.
 Retrieving large objects can increase the latency of a request and incur additional bandwidth costs.
 
-(Source: https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+[Source](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
 ## Naming examples [Coming soon]
 
@@ -104,7 +108,7 @@ CamelCase (camelCase) MUST be used to delimit combined words.
 
 ## Vocabulary
 
-Prioritize simple words.
+Prioritize uncomplicated words.
 This help creates a standard and improves SEO and search.
 
 By using well-know words it is more effortless for users to understand the API.
@@ -131,4 +135,3 @@ The content of this section is collected from and inspired by:
 - [Micofromats, Dublin Core](https://dublincore.org/)
 - Industry Vocabularies
 - Internal Vocabularies
-

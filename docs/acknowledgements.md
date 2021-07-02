@@ -52,7 +52,7 @@ A big thanks goes to:
 - [Vinay Sahni](https://www.vinaysahni.com/)
 - [Red Hat](https://www.redhat.com/en/topics/api/what-is-api-design)
 - [Tom Johnson](https://idratherbewriting.com/)
-- [Michael Amundsen](https://www.linkedin.com/in/mamund/)
+- [Michael Amundsen](https://twitter.com/mamund)
 - [Arnaud Lauret](https://apihandyman.io/)
 - [VMware](https://www.vmware.com/)
 

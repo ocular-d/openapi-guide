@@ -1,15 +1,14 @@
 # Rulesets
 
-Rulesets are collections of rules written in JSON or YAML, which can be used to power powerful linting of other JSON or YAML files.
+Rulesets are collections of rules written in JSON or YAML which can be used to lint other JSON or YAML files,
+such as [Spectral's rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md).
 
-See the [Spectral documentation](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md) for more info.
-
-Adjust links below to be real links
-Link to rules on GitHub
+This article collects rulesets from great API providers that you can use as best practices for your API.
+They are categorized based on author (Adidas, DigitalOcean) out of gratitude and acknowledgement.
 
 ## Adidas
 
-- All JSON fields MUST follow `camelCase`
+- All JSON fields MUST follow the same naming conventions (`camelCase`, American English, and so on)
 - Field names MUST be ASCII alphanumeric characters or `_` or `$`
 - Collection/array fields MUST have names in plural
 - All requests go through `https` protocol

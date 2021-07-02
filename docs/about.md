@@ -9,8 +9,8 @@ And, as tech-savvy as they might be, they're still humans.
 For this, keeping users (replace with *consumers*) and usability at the core of your work around APIs is a must.
 But how does one remove friction from APIs and make them usable?
 
-Because APIs only rely on words, consistency, examples, extensibility, and simple writing are of outmost importance.
-In Agile teams, with potentially several devs contributing to the same API, design guidelines that they can reference
+Because APIs only rely on words, consistency, examples, extensibility, and writing are of outmost importance.
+In Agile teams, with potentially several developers contributing to the same API, design guidelines that they can reference
 become a great tool to ensure that a pleasant experience is created even if "it's just code".
 
 The key is [adopting an outside-in perspective](https://stoplight.io/blog/why-you-should-view-your-apis-as-products/#1.-adopt-an-outside-in-perspective)

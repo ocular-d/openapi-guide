@@ -47,5 +47,5 @@ When you enable CORS, your API responds to the OPTIONS preflight request with at
 For resources exposed by RESTful web services, it's important to make sure any PUT, POST, and DELETE request
 is protected from Cross-Site Request Forgery (CSRF). For example, you can follow a token-based authentication approach.
 
-CSRF is easily achieved even using random tokens if any Cross-Site Scripting (XSS) exists within your application.
+CSRF is achieved even using random tokens if any Cross-Site Scripting (XSS) exists within your application.
 Make sure you understand how to prevent XSS.
