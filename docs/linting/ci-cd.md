@@ -1,10 +1,16 @@
 # Continuous Integration
 
-How to use GutHub Actions and friends to validate APIs (with spectral)
+You can use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral.
 
 ## GitHub Action
 
 [This action](https://github.com/stoplightio/spectral-action) uses [Spectral](https://github.com/stoplightio/spectral) from [Stoplight](https://stoplight.io/) to lint your OpenAPI documents, or any other JSON/YAML files.
+
+## Configuration
+
+By default, Spectral Action will follow the [Spectral Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md).
+You can override default rulesets with your custom ruleset
+by placing a file ending in `.spectral.yml` in the root of your repository and adding it to the config file.
 
 ### Usage
 
@@ -28,16 +34,11 @@ jobs:
       - uses: stoplightio/spectral-action@v0.7.3
         with:
           file_glob: 'doc/api/*.yaml'
+          spectral_ruleset: 'doc/api/custom-ruleset.spectral.yaml'
 ```
 
-### Inputs
-
 - **file_glob:** Pattern describing the set of files to lint. Defaults to `*.oas.{json,yml,yaml}`. (_Note:_ Pattern syntax is documented in the [fast-glob](https://www.npmjs.com/package/fast-glob) package documentation)
-- **spectral_ruleset:** Custom ruleset to load in Spectral. When unspecified, will try to load the default `.spectral.yaml` ruleset if it exists; otherwise, the default built-in Spectral rulesets will be loaded.
-
-## Configuration
-
-Spectral Action will respect your [Spectral Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md), which can be defined, extended, and overriden by placing `.spectral.yml` in the root of your repository.
+- **spectral_ruleset:** Optional custom ruleset to load in Spectral. The file must end in `.spectral.yml`. When not defined, the default Spectral ruleset will be loaded.
 
 <RRead>
 
