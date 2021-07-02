@@ -1,5 +1,8 @@
 # Generate documentation
 
+There are many tools you can use to generate documentation.
+This article collects a few of them so that you can get an idea of which one is the best fit for you.
+
 ## ReDoc
 
 OpenAPI/Swagger-generated API Reference Documentation.
