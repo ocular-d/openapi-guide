@@ -4,7 +4,8 @@ Descriptions are among the pieces of an API that are most consumed by humans
 and they can be added to almost every element of an API.
 As such, they need to be user-friendly and add value, because users will use them to understand your API.
 
-In most cases, for example, the description of the Data API method shouldn't say "Content API." — while your naming should be informative, most readers are reading your descriptions because they want more information than the names themselves provide.
+In most cases, for example, the description of the Data API method shouldn't say "Content API."
+While your naming should be informative, most readers are reading your descriptions because they want more information than the names themselves provide.
 
 Here's a few best practices you can follow to create awesome API descriptions.
 You can use it as a checklist.
@@ -31,4 +32,3 @@ If you're not sure what else to say in a description, try answering all of the f
 - Does it have a default setting?
 
 In synthesis, a good description focuses on the what, the how, and the why.
-

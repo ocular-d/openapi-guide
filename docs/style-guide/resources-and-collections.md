@@ -37,7 +37,6 @@ Notice how they’re all plural nouns?
 
 They’re also self-explanatory, and we can infer that /users and /photos gives information about the product’s registered user base, and shared photos respectively.
 
-
 |Cool|Not so cool|
 |-|-|
 |`/products`|`/getAllProducts`|

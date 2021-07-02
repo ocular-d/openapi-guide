@@ -15,6 +15,8 @@ will leave users with no way to understand what's going on, creating friction.
 Also successful operations require status codes.
 A successful operation on a resource must return a [200-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) response.
 
+<!-- markdownlint-disable -->
+
 ## Common error HTTP codes
 
 Common HTTP error status codes include:
@@ -37,3 +39,5 @@ Common HTTP error status codes include:
 - [How to Think About HTTP Status Codes](https://www.mnot.net/blog/2017/05/11/status_codes "How to Think About HTTP Status Codes")
 
 </RRead>
+
+<!-- markdownlint-enable -->
