@@ -4,7 +4,7 @@ Summaries are also an important part of the API documentation because they are d
 Users often use them to understand whether an endpoint or item is relevant to them,
 so their goal is to hint at what the item is enabling users to do.
 
-Follow these simple tips for summaries:
+Follow these tips for summaries:
 
 - Add summaries to endpoints
 - Don’t repeat the name of the method in summary, if we talk about GET, don’t say Get all users (example)

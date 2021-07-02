@@ -104,7 +104,7 @@ CamelCase (camelCase) MUST be used to delimit combined words.
 
 ## Vocabulary
 
-Prioritize simple words.
+Prioritize uncomplicated words.
 This help creates a standard and improves SEO and search.
 
 By using well-know words it is more effortless for users to understand the API.

@@ -26,7 +26,7 @@ Many of the API design opinions found on the web are academic discussions revolv
 
 - It should use web standards where they make sense
 - It should be friendly to the developer and be explorable via a browser address bar
-- It should be simple, intuitive and consistent to make adoption not only easy but pleasant
+- It should be understandable, intuitive and consistent to make adoption not only easy but pleasant
 - It should provide enough flexibility to power majority of the Enchant UI
 - It should be efficient, while maintaining balance with the other requirements
 - An API is a developer's UI - like any UI, it's important to ensure the user's experience is thought out carefully!
