@@ -43,5 +43,6 @@ API First is the way to go, it makes things so much simpler, and it’s what Ope
 - [Understanding API-First Development](https://tanzu.vmware.com/developer/guides/microservices/api-first-development/)
 - [Best Practices in API Design](https://swagger.io/resources/articles/best-practices-in-api-design/)
 - [Principles of API First Design Thinking](https://hackernoon.com/principles-of-api-first-design-thinking-x71t35c5)
+- [3 good reasons to do API Design Reviews](http://apihandyman.io/3-good-reasons-to-do-api-design-reviews/)
 
 </RRead>
