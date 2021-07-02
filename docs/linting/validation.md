@@ -75,7 +75,7 @@ For more details about how to utilize Spectral CLI you can check the CLI built-i
 spectral lint -h
 ```
 
-or go to the official [Spectral documentation](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/cli.md "Spectral website").
+or go to the official [Spectral documentation](https://meta.stoplight.io/docs/spectral/docs/guides/2-cli.md "Spectral website").
 
 <RRead>
 
