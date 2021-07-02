@@ -60,11 +60,12 @@ Check the [website](https://mrin9.github.io/RapiDoc/) for more info.
 <!-- markdown-link-check-enable -->
 ## Widdershins
 
-Widdershins is generally used as a stage in an API documentation pipeline. The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format. Widdershins converts this description into markdown suitable for use by a **renderer**, such as [Slate](https://github.com/slatedocs/slate), [ReSlate](https://github.com/mermade/reslate), [Shins](https://github.com/mermade/shins)  (*deprecated*) or html suitable for use with [ReSpec](https://github.com/w3c/respec).
+<!-- markdown-link-check-disable -->
+
+Widdershins is generally used as a stage in an API documentation pipeline. The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format.
+Widdershins converts this description into Markdown suitable for use by a **renderer**, such as [Slate](https://github.com/slatedocs/slate), [ReSlate](https://github.com/mermade/reslate) or html suitable for use with [ReSpec](https://github.com/w3c/respec).
 
 More in-depth documentation is [available on GitHub](https://mermade.github.io/widdershins).
-
-<!-- markdown-link-check-disable -->
 
 ![Widdershins screenshot](/images/widdershins.png)
 
