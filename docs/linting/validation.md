@@ -26,6 +26,7 @@ Spectral is available through common package managers and as a Docker image.
 ## Requirements
 
 To install spectral, you will need:
+
 - [Node.js](https://nodejs.org/en/ "Node.js website")
 - a package manager like [npm](https://www.npmjs.com/ "npm website") or [Yarn](https://yarnpkg.com/ "Yarn website").
 
