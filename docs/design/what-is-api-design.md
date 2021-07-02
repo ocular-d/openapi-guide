@@ -9,6 +9,8 @@ your design will influences how well developers and systems can consume the API 
 
 Let's look at the features of a well-designed API:
 
+<!-- markdownlint-disable -->
+
 - It focuses on its users
 - It meets initial expectations and continues to behave consistently and predictably
 - It's easy to work with. This means that its resources and operations are relatable and can be easily memorized
@@ -17,6 +19,8 @@ Let's look at the features of a well-designed API:
 to create full-fledged applications that use the data you expose.
 Completeness is a goal, not a starting point.
 However, it should be a milestone that is considered from the beginning and that every API contributor strives towards
+
+<!-- markdownlint-enable -->
 
 ## Features of a pragmatic RESTful API
 
@@ -36,6 +40,8 @@ Many of the API design opinions found on the web are academic discussions revolv
 - A good public and internal API focuses on: Functionality, usability and creating a nice user experience
 - A good system API focuses on: Functionality and usability
 
+<!-- markdownlint-disable -->
+
 <RRead>
 
 - [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
@@ -45,3 +51,5 @@ Many of the API design opinions found on the web are academic discussions revolv
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 </RRead>
+
+<!-- markdownlint-enable -->
