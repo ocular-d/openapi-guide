@@ -1,4 +1,22 @@
-# Continuous Integration
+---
+title: Continuous Integration
+description: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+meta:
+  - name: "og:description"
+    content: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+  - name: keywords
+    content: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+tags:
+  - OpenAPI
+  - OAS
+  - design
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 You can use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral.
 

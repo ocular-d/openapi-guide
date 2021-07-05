@@ -3,9 +3,9 @@ title: Validate your API with Spectral
 description: Validating APIs with Spectral
 meta:
   - name: "og:description"
-    content: OpenAPI design and style guide introduction
+    content: Validating APIs with Spectral
   - name: keywords
-    content: OpenAPI design and style guide introduction
+    content: Validating APIs with Spectral
 tags:
   - OpenAPI
   - OAS
