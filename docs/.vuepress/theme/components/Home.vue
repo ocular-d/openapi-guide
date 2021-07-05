@@ -137,7 +137,7 @@ export default {
     background-color: #fff
     height: 60px
     padding: 10px 60px
-    // position: absolute
+    position: absolute !important;
     z-index: 100
   header.navbar
     border: 0
