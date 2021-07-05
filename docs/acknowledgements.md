@@ -16,7 +16,7 @@ tags:
   - OAS
   - openAPI
   - swagger
-  - acknoledgements
+  - acknowledgements
   - thanks
   - open
   - source
