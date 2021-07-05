@@ -1,4 +1,23 @@
-# Resources
+---
+title: Resources
+description: Videos and other resources
+sidebarDepth: 2
+meta:
+  - name: "og:description"
+    content: Videos and other resources
+  - name: keywords
+    content: Videos and other resources
+tags:
+  - OpenAPI
+  - OAS
+  - design
+  - style
+  - guide
+---
+
+<ShortHeader/>
+
+---
 
 A collection of resources to delve into API design principles and best practices.
 
