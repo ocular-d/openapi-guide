@@ -1,5 +1,5 @@
 ---
-title: How-To Tutorials
+title: How-To tutorials
 description: What are tutorials and how can they help
 meta:
   - name: "og:description"
