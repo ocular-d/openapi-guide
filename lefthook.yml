@@ -1,0 +1,16 @@
+# lefthook.yml
+
+pre-commit:
+  commands:
+    check-links:
+      glob: "docs/*.{md}"
+      run: ./node_modules/.bin/markdown-link-check -c .mlc_config.json {staged_files}
+    alex-lint:
+      glob: "docs/*.{md}"
+      run: ./node_modules/.bin/alex {staged_files}
+    vale-lint:
+      glob: "*.{md}"
+      run: ./node_modules/.bin/vale {staged_files}
+    markdown-lint:
+      glob: "docs/*.{md}"
+      run: ./node_modules/.bin/markdownlint {staged_files}
