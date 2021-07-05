@@ -6,6 +6,7 @@ meta:
     content: Tools like Spectral allow you to validate that your API adheres to standards
   - name: keywords
     content: design API OAS OpenAPI documentation style guide tools spectral validate validation
+tags:
   - design
   - style
   - guide

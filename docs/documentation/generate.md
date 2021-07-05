@@ -1,6 +1,7 @@
 ---
 title: Generate documentation
 description: Learn how you can generate API reference documentation
+meta:
   - name: "og:description"
     content: Learn how you can generate API reference documentation
   - name: keywords
