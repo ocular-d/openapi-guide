@@ -6,7 +6,7 @@ meta:
   - name: "og:description"
     content: OpenAPI design and style guide introduction
   - name: keywords
-    content: OpenAPI design and style guide introduction
+    content: API style guide design introduction about consistency usability why documentation openAPI OAS swagger acknowledgements
 tags:
   - design
   - style

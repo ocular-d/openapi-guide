@@ -5,7 +5,7 @@ meta:
   - name: "og:description"
     content: Designing an API before coding it can make your API more sustainable and helpmeet the users where they are
   - name: keywords
-    content: design-first API-first contract-first UX OAS API OpenAPI swagger documentation
+    content: design-first API-first style guide contract-first UX OAS API OpenAPI swagger documentation
 tags:
   - design
   - style

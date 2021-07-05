@@ -1,17 +1,25 @@
 ---
 title: Resources, collections, URLs
-description: What are these and style is important
+description: Learn what resources and collections are, how to design them, and how they're different from each other
 meta:
   - name: "og:description"
-    content: What are these and style is important
+    content: Learn what resources and collections are, how to design them, and how they're different from each other
   - name: keywords
-    content: What are these and style is important
+    content: resources collections URLs design API OAS OpenAPI documentation naming style guide
 tags:
-  - OpenAPI
-  - OAS
-  - naming
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - documentation
+  - naming
+  - resources
+  - collections
+  - URLs
 ---
 
 <Header/>

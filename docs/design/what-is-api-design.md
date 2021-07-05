@@ -6,7 +6,7 @@ meta:
   - name: "og:description"
     content: Learn what design means, when applied to APIs
   - name: keywords
-    content: design style guide what is api features UX
+    content: design style guide what is api features UX documentation
 tags:
   - design
   - style
