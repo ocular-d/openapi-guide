@@ -1,6 +1,7 @@
 ---
 title: Summaries
 description: Learn what summaries are, how to design them, and why they're important for your users
+meta:
   - name: "og:description"
     content: Learn what summaries are, how to design them, and why they're important for your users
   - name: keywords
