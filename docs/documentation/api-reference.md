@@ -1,11 +1,11 @@
 ---
 title: API Reference
-description: Help developers understand what’s possible with your API.
+description: Help developers understand what’s possible with your API
 meta:
   - name: "og:description"
-    content: OpenAPI design and style guide introduction
+    content: Help developers understand what’s possible with your API
   - name: keywords
-    content: OpenAPI design and style guide introduction
+    content: Help developers understand what’s possible with your API
 tags:
   - OpenAPI
   - OAS

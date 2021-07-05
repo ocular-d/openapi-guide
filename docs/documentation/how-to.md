@@ -1,11 +1,11 @@
 ---
 title: How-To Tutorials
-description: What are tutorials and how can they help.
+description: What are tutorials and how can they help
 meta:
   - name: "og:description"
-    content: OpenAPI design and style guide introduction
+    content: What are tutorials and how can they help
   - name: keywords
-    content: OpenAPI design and style guide introduction
+    content: What are tutorials and how can they help
 tags:
   - OpenAPI
   - OAS

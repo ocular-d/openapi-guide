@@ -1,11 +1,11 @@
 ---
 title: Quick Start Guides
-description: What are quick start guides.
+description: What are quick start guides
 meta:
   - name: "og:description"
-    content: OpenAPI design and style guide introduction
+    content: What are quick start guides
   - name: keywords
-    content: OpenAPI design and style guide introduction
+    content: What are quick start guides
 tags:
   - OpenAPI
   - OAS

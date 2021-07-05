@@ -1,4 +1,23 @@
-# Generate documentation
+---
+title: Generate documentation
+description: How to generate API reference documentation
+meta:
+  - name: "og:description"
+    content: How to generate API reference documentation
+  - name: keywords
+    content: How to generate API reference documentation
+tags:
+  - OpenAPI
+  - OAS
+  - documentation
+  - style
+  - guide
+  - quick-start
+---
+
+<Header/>
+
+---
 
 There are many tools you can use to generate documentation.
 This article collects a few of them so that you can get an idea of which one is the best fit for you.
