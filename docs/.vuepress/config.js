@@ -7,7 +7,7 @@ module.exports = {
   ],
   title: 'OpenAPI Guide',
   description: 'OpenAPI design, style and documentation guide',
-  base: "/",
+  base: "/openapi-guide/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['link', {
