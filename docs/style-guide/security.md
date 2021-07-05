@@ -23,6 +23,8 @@ tags:
 It's safer to approach access control assuming that not every user has a right to every web service.
 One of the benefits of such approach is that it prevents users from misusing administrative web services.
 
+<!-- vale off -->
+
 To ensure that privileged collections or actions are properly protected from unauthorized use,
 the API key **SHOULD** be sent along as a cookie, body parameter, or HTTP message header.
 
@@ -51,6 +53,7 @@ However, DO NOT TRY TO DO THIS YOURSELF.
 Use a known library or the auto-escaping features of your favorite template library.
 Do this both in the browser and on your server if you allow users to submit data that is saved into a database.
 
+<!-- vale on -->
 ## Enable CORS for all APIs
 
 When your API resources receive requests from a domain other than the API's domain,

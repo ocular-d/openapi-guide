@@ -29,7 +29,7 @@ For example, `/customers` is the path to the customers collection and `/customer
 This approach helps to keep the web API intuitive.
 
 Many web API frameworks can route requests based on parameterized URI paths,
-so you could define a route for the path `/customers/{id}`.
+meaning you could define a route for the path `/customers/{id}`.
 
 ## Consider relationships between resources
 
@@ -51,7 +51,7 @@ This mechanism is described in more detail in the section [Use HATEOAS](https://
 In more complex systems, it can be tempting to provide URIs that enable a client to navigate through several levels of relationships, such as `/customers/1/orders/99/products`.
 
 This level of complexity can be difficult to maintain and is inflexible if the relationships between resources change in the future.
-Instead, try to keep URIs relatively simple.
+Instead, try to keep URIs relatively clean.
 Once an application has a reference to a resource, it should be possible to use this reference to find items related to that resource.
 
 The preceding query can be replaced with the URI `/customers/1/orders` to find all the orders for customer 1,
@@ -86,9 +86,13 @@ Coming soon...
 To provide consistent developer experience across many APIs and over a long period of time,
 all names used by an API should be:
 
+<!-- vale off -->
+
 - "Simple"
 - Intuitive
 - Consistent
+
+<!-- vale off -->
 
 This includes names of interfaces, resources, collections, methods, and messages.
 
@@ -114,8 +118,6 @@ Use them judiciously and sparingly.
 - Use American English
 - Don't use acronyms
 Use `camelCase` unless stated otherwise
-
-(Add here posting from Handyman, should be plural)
 
 Every identifier MUST be in American English and written in lowercase.
 An identifier SHOULD NOT contain acronyms.

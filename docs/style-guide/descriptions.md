@@ -30,7 +30,7 @@ You can use it as a checklist.
 
 - Add descriptions to all server, endpoints, endpoint parameters and responses,to all elements that support such field according to the [specification](https://swagger.io/specification/) that is relevant to you
 - Make sure each description is brief but complete and can be understood by users who don't have additional information about the API.
-- Don’t repeat the name of the method in description, if we talk about GET, don’t say Get all users (example)
+- Don’t repeat the name of the method in description, if you talk about GET, don’t say Get all users (example)
 - Don’t auto-generate descriptions and summaries, make sure that the content has value for the user.
 - Take you time to explain human understandable what the action is for!
 Wording should be as clear and self-explaining as possible

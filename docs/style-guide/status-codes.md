@@ -22,6 +22,8 @@ tags:
 Giving relevant feedback to users on the status of each operation
 can mark the difference between a good and a bad API experience.
 
+<!-- vale off -->
+
 Doing so gives both consumers and maintainers of the API enough information to understand what's going on.
 Also, assume that your API will make errors, or that users will when using it.
 Underestimating the fact that errors will occur and not preparing your API to handle them properly and give relevant feedback
@@ -50,6 +52,8 @@ Common HTTP error status codes include:
 | 500 | [Internal server error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500) – Generic server error. It probably shouldn’t be thrown explicitly |
 | 502 | [Bad Gateway](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502) – Invalid response from an upstream server |
 | 503 | [Service Unavailable](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503) – Something unexpected happened on server side. For example, it can be a server overload or that some parts of the system failed |
+
+<!-- vale on -->
 
 <RRead>
 

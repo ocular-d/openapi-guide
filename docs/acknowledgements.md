@@ -23,8 +23,13 @@ This guide is created by aggregating content and drawing inspiration from variou
 Credit goes to them for their respective contribution.
 Our knowledge about APIs would be much more partial without them.
 
-*We're doing our best to give credit to whomever inspired this guide. However, we're human and we can make mistakes.
+<!-- vale off -->
+
+*We're doing our best to give credit to whomever inspired this guide.
+However, we're human and we can make mistakes.
 If you think you should appear in this list, open an [issue](https://github.com/ocular-d/openapi-guide/issues/new/choose) on GitHub!*
+
+<!-- vale on -->
 
 A big thanks goes to:
 

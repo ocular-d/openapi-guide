@@ -19,6 +19,8 @@ tags:
 
 ---
 
+<!-- vale off -->
+
 Even if you do the best API design, name your endpoints in a friendly and consistent way,
 pick a common message format like JSON:API, and are using a popular authentication method like OAuth 2.0,
 that won't be enough to get the users adopting and engaged with your API.
@@ -30,6 +32,8 @@ Some may be new to many of the tools and standards you have chosen to use or eve
 It's of outmost importance that your docs walk them through the most common tasks,
 identify the steps to authenticate, and show off a step by step guide to bring them to their first "aha" moment -
 usually creating a resource on the server or some other successful transaction.
+
+<!-- vale on -->
 
 Once you've written this guide, make it highly visible within your documentation.
 

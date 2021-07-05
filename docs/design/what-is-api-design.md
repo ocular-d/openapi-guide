@@ -31,7 +31,7 @@ Let's look at the features of a well-designed API:
 
 - It focuses on its users
 - It meets initial expectations and continues to behave consistently and predictably
-- It's easy to work with. This means that its resources and operations are relatable and can be easily memorized
+- It's easy to work with. This means that its resources and operations are relatable and can be memorized
 - It's hard to misuse. This means that implementing and integrating with an API with good design will be a straightforward process, and writing incorrect code will be a less likely outcome. It has informative feedback, and doesn’t enforce strict guidelines on the API’s end consumer
 - It's complete and concise. A complete API will make it possible for developers
 to create full-fledged applications that use the data you expose.
@@ -51,7 +51,7 @@ Many of the API design opinions found on the web are academic discussions revolv
 - It should be understandable, intuitive and consistent to make adoption not only easy but pleasant
 - It should provide enough flexibility to power majority of the Enchant UI
 - It should be efficient, while maintaining balance with the other requirements
-- An API is a developer's UI - like any UI, it's important to ensure the user's experience is thought out carefully!
+- An API is a developer's UI - like any UI, it's important to ensure the user's experience is thought out
 
 ## Public vs Internal vs System
 

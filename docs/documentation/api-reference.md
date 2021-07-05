@@ -24,8 +24,8 @@ Documentation is an asset that gives developers context and eases them into codi
 Documentation should focus on all the endpoints (a.k.a "operations") available in an API
 and help explain potential input and output values that can be in requests and responses.
 
-Some API reference documentation will just show an example, but it's more useful to expand upon that
-and explain not just what those values mean, but what other values could also be valid in various contexts.
+Some API reference documentation will only show an example, but it's more useful to expand upon that
+and explain not only what those values mean, but what other values could also be valid in various contexts.
 
 API documentation is also useful to show users which endpoints need which authentication methods (or security schemes),
 what cache headers they could expect to find, and even point out things like pagination.

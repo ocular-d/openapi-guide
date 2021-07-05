@@ -36,9 +36,13 @@ More information on [GitHub](https://github.com/Redocly/redoc).
 
 ## Swagger UI
 
+<!-- vale off -->
+
 [Swagger UI](https://swagger.io/tools/swagger-ui/) allows anyone — be it your development team or your end consumers — to visualize and interact with the API’s resources without having any of the implementation logic in place.
 
-It’s automatically generated from your OpenAPI (formerly known as Swagger) Specification, with the visual documentation making it effortless for back end implementation and client side consumption.
+<!-- vale on -->
+
+It’s automatically generated from your OpenAPI (formerly known as Swagger) Specification, with the visual documentation making it effortless for back-end implementation and client side consumption.
 
 <!-- markdown-link-check-disable -->
 
@@ -61,7 +65,10 @@ Browse the [docs](https://stoplight.io/open-source/elements/).
 :::warning Info
 With Stoplight Elements you can use [Stoplight Flavored Markdown (SMD)](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to enhance your Markdown.
 
+<!-- vale off -->
+
 By leveraging comments to store the annotations, Stoplight Flavored Markdown degrades gracefully when rendered in other CommonMark-compatible Markdown renderers (GitHub, for example).
+<!-- vale on -->
 :::
 
 ## RapiDoc
@@ -81,7 +88,8 @@ Check the [website](https://mrin9.github.io/RapiDoc/) for more info.
 
 <!-- markdown-link-check-disable -->
 
-Widdershins is generally used as a stage in an API documentation pipeline. The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format.
+Widdershins is used as a stage in an API documentation pipeline.
+The pipeline begins with an API definition in OpenAPI 3.x, OpenAPI 2.0 (fka Swagger), API Blueprint, AsyncAPI or Semoasa format.
 Widdershins converts this description into Markdown suitable for use by a **renderer**, such as [Slate](https://github.com/slatedocs/slate), [ReSlate](https://github.com/mermade/reslate) or html suitable for use with [ReSpec](https://github.com/w3c/respec).
 
 More in-depth documentation is [available on GitHub](https://mermade.github.io/widdershins).
