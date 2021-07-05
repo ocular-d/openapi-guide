@@ -5,7 +5,7 @@ meta:
   - name: "og:description"
     content: An API guide ensures consistency and usability
   - name: keywords
-    content: API style guide about consistency usability why
+    content: API style guide design introduction about consistency usability why
 tags:
   - consistency
   - usability
