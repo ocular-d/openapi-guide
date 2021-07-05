@@ -1,20 +1,27 @@
 ---
 title: Resources
-description: Videos and other resources
+description: Videos and other resources to design awesome APIs
 meta:
   - name: "og:description"
-    content: Videos and other resources
+    content: Videos and other resources to design awesome APIs
   - name: keywords
-    content: Videos and other resources
+    content: videos resources design API openAPI swagger UX documentation learn
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - documentation
+  - resources
+  - videos
+  - principles
 ---
 
-<ShortHeader/>
+<Header/>
 
 ---
 
