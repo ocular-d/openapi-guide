@@ -1,18 +1,22 @@
 ---
 title: How-To tutorials
-description: What are tutorials and how can they help
+description: Learn why tutorials are a valuable resource and play a key role in how users experience your API
 meta:
   - name: "og:description"
-    content: What are tutorials and how can they help
+    content: Learn why tutorials are a valuable resource and play a key role in how users experience your API
   - name: keywords
-    content: What are tutorials and how can they help
+    content: design API OAS OpenAPI documentation tutorials how-to
 tags:
-  - OpenAPI
-  - OAS
-  - documentation
+  - design
   - style
   - guide
-  - tutorial
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - tutorials
+  - how-to
 ---
 
 <Header/>
