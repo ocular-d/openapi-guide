@@ -12,6 +12,9 @@ tags:
   - guide
   - style
   - API
+  - about
+  - OAS
+  - OpenAPI
 ---
 
 <Header/>

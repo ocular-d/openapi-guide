@@ -1,6 +1,6 @@
 ---
 title: Acknowledgements
-description: Thank you!
+description: This guide openly draws inspiration and knowledge from other open source projects. Thank you!
 sidebarDepth: 2
 meta:
   - name: "og:description"
@@ -8,14 +8,21 @@ meta:
   - name: keywords
     content: OpenAPI design and style guide introduction
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - about
+  - OAS
+  - openAPI
+  - swagger
+  - acknoledgements
+  - thanks
+  - open
+  - source
 ---
 
-<ShortHeader/>
+<Header/>
 
 ---
 
@@ -27,7 +34,7 @@ Our knowledge about APIs would be much more partial without them.
 
 *We're doing our best to give credit to whomever inspired this guide.
 However, we're human and we can make mistakes.
-If you think you should appear in this list, open an [issue](https://github.com/ocular-d/openapi-guide/issues/new/choose) on GitHub!*
+If you think you should appear in this list, [open an issue](https://github.com/ocular-d/openapi-guide/issues/new/choose) on GitHub!*
 
 <!-- vale on -->
 
