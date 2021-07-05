@@ -57,7 +57,7 @@ yarn global add @stoplight/spectral
 :::
 ::::
 
-## Docker
+## Spectral and Docker
 
 Spectral is also available as a [Docker](https://www.docker.com/ "Docker website") image.
 
