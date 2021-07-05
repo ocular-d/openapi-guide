@@ -30,6 +30,6 @@ to explain why you chose your specific pagination approach of the many that exis
 and explain how your users should interact with it. For example, Slack and Stripe do a great job at that.
 
 Other common tutorials are "Common Errors" which explain how your error objects work,
-what [common status codes](../style-guide/status-codes) mean,
+what [common status codes](../style-guide/status-codes.md) mean,
 that you don't need to document `500`, `501`, `502` on every single operation,
 and any other useful information that can help users troubleshoot their experience.
