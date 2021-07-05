@@ -1,17 +1,23 @@
 ---
 title: Descriptions
-description: Users will use them to understand your API
+description: Learn what descriptions are, how to design them, and why they're important for your users
 meta:
   - name: "og:description"
-    content: Users will use them to understand your API
+    content: Learn what descriptions are, how to design them, and why they're important for your users
   - name: keywords
-    content: Users will use them to understand your API
+    content: descriptions design API OAS OpenAPI documentation naming style guide
 tags:
-  - OpenAPI
-  - OAS
-  - descriptions
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - documentation
+  - naming
+  - descriptions
 ---
 
 <Header/>

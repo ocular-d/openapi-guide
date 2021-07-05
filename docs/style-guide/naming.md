@@ -1,17 +1,22 @@
 ---
 title: Naming
-description: A collection of best practices to follow in regards to naming your API items
+description: Some best practices to follow when naming your API elements
 meta:
   - name: "og:description"
-    content: A collection of best practices to follow in regards to naming your API items
+    content: Some best practices to follow when naming your API elements
   - name: keywords
-    content: A collection of best practices to follow in regards to naming your API items
+    content: UX OAS API OpenAPI swagger features UX naming documentation design
 tags:
-  - OpenAPI
-  - OAS
-  - naming
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - documentation
+  - naming
 ---
 
 <Header/>

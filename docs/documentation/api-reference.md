@@ -1,18 +1,21 @@
 ---
 title: API Reference
-description: Help developers understand what’s possible with your API
+description: Consider the API reference as the unique source of truth to help developers understand how your API works
 meta:
   - name: "og:description"
-    content: Help developers understand what’s possible with your API
+    content: Consider the API reference as the unique source of truth to help developers understand how your API works
   - name: keywords
-    content: Help developers understand what’s possible with your API
+    content: design API OAS OpenAPI documentation reference
 tags:
-  - OpenAPI
-  - OAS
-  - documentation
+  - design
   - style
   - guide
-  - tutorial
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - reference
 ---
 
 <Header/>
@@ -21,7 +24,7 @@ tags:
 
 Documentation is an asset that gives developers context and eases them into coding using your app.
 
-Documentation should focus on all the endpoints (a.k.a "operations") available in an API
+An API reference should focus on all the endpoints (a.k.a "operations") available in an API
 and help explain potential input and output values that can be in requests and responses.
 
 Some API reference documentation will only show an example, but it's more useful to expand upon that

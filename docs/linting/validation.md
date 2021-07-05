@@ -1,17 +1,25 @@
 ---
 title: Validate your API with Spectral
-description: Validating APIs with Spectral
+description: Tools like Spectral allow you to validate that your API adheres to standards
 meta:
   - name: "og:description"
-    content: Validating APIs with Spectral
+    content: Tools like Spectral allow you to validate that your API adheres to standards
   - name: keywords
-    content: Validating APIs with Spectral
+    content: design API OAS OpenAPI documentation style guide tools spectral validate validation
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - linting
+  - tools
+  - spectral
+  - validate
+  - validation
 ---
 
 <Header/>
@@ -50,7 +58,7 @@ yarn global add @stoplight/spectral
 :::
 ::::
 
-## Docker
+## Spectral and Docker
 
 Spectral is also available as a [Docker](https://www.docker.com/ "Docker website") image.
 

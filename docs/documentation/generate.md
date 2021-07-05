@@ -1,18 +1,28 @@
 ---
 title: Generate documentation
-description: How to generate API reference documentation
+description: Learn how you can generate API reference documentation
 meta:
   - name: "og:description"
-    content: How to generate API reference documentation
+    content: Learn how you can generate API reference documentation
   - name: keywords
-    content: How to generate API reference documentation
+    content: design API OAS OpenAPI documentation reference generate redoc swagger rapidoc stoplight elements Widdershins
 tags:
-  - OpenAPI
-  - OAS
-  - documentation
+  - design
   - style
   - guide
-  - quick-start
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - tools
+  - generate
+  - redoc
+  - swagger
+  - rapidoc
+  - stoplight
+  - elements
+  - widdershins
 ---
 
 <Header/>

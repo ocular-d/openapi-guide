@@ -1,23 +1,31 @@
 ---
 title: Why design-first
-description: Design-first, also known as API-first, or contract-first, is a process where the API is designed before it's coded
+description: Designing an API before coding it can make your API more sustainable and helpmeet the users where they are
 meta:
   - name: "og:description"
-    content: Design-first, also known as API-first, or contract-first, is a process where the API is designed before it's coded
+    content: Designing an API before coding it can make your API more sustainable and helpmeet the users where they are
   - name: keywords
-    content: Design-first, also known as API-first, or contract-first, is a process where the API is designed before it's coded
+    content: design-first API-first style guide contract-first UX OAS API OpenAPI swagger documentation
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - design-first
+  - API-first
+  - contract-first
+  - documentation
 ---
 
 <Header/>
 
 ---
 
+Design-first, also known as API-first, or contract-first, is a process where the API is designed before it's coded.
 Doing so allows to apply some principles of design thinking to the API, such as:
 
 - Users are the starting point - A pleasant user experience is the north star

@@ -1,30 +1,40 @@
 ---
 title: Continuous Integration
-description: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+description: Use CI/CD tools, such as GitHub Actions, to validate your APIs
 meta:
   - name: "og:description"
-    content: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+    content: Use CI/CD tools, such as GitHub Actions, to validate your APIs
   - name: keywords
-    content: Use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral
+    content: design API OAS OpenAPI documentation style guide tools spectral github actions rulesets CI CD continuous integration
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - linting
+  - CI
+  - CD
+  - continuous
+  - integration
+  - tools
+  - spectral
+  - github
+  - actions
 ---
 
 <Header/>
 
 ---
 
-You can use CI/CD, such as GutHub Actions, to validate APIs with tools like Spectral.
-
-## GitHub Action
+You can use CI/CD tools, such as GutHub Actions, to validate APIs with tools like Spectral.
 
 [This action](https://github.com/stoplightio/spectral-action) uses [Spectral](https://github.com/stoplightio/spectral) from [Stoplight](https://stoplight.io/) to lint your OpenAPI documents, or any other JSON/YAML files.
 
-## Configuration
+### Configuration
 
 By default, Spectral Action will follow the [Spectral Rulesets](https://meta.stoplight.io/docs/spectral/docs/getting-started/3-rulesets.md).
 You can override default rulesets with your custom ruleset

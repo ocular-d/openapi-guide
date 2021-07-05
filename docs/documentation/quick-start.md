@@ -1,18 +1,25 @@
 ---
-title: Quick Start Guides
-description: What are quick start guides
+title: Quick Start guides
+description: Learn why quick start guides are a valuable resource and play a key role in how users experience your API
 meta:
   - name: "og:description"
-    content: What are quick start guides
+    content: Learn why quick start guides are a valuable resource and play a key role in how users experience your API
   - name: keywords
-    content: What are quick start guides
+    content: design API OAS OpenAPI documentation quick start guides onboarding
 tags:
-  - OpenAPI
-  - OAS
-  - documentation
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
   - quick-start
+  - quick
+  - start
+  - guides
+  - onboarding
 ---
 
 <Header/>

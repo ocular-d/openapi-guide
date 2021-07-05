@@ -1,22 +1,29 @@
 ---
-title: Why an API guide
-description: Consistency and useability are a must for stunning APIs
+title: About
+description: An API guide ensures consistency and usability, which are a must for a stunning experience. It also ensures that API documentation makes sense for humans and machines alike.
 meta:
   - name: "og:description"
-    content: Consistency and useability are a must
+    content: An API guide ensures consistency and usability, which are a must for a stunning experience. It also ensures that API documentation makes sense for humans and machines alike.
   - name: keywords
-    content: Consistency and useability are a must
+    content: API style guide design introduction about consistency usability why documentation
 tags:
   - consistency
-  - useability
+  - usability
   - guide
   - style
   - API
+  - about
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
 ---
 
 <Header/>
 
 ---
+
+## Why an API guide
 
 Despite of what an API can technically do or not do, one of the terms that compose the acronym is "Interface".
 An API is, at the end of the day, yet another interface.

@@ -1,17 +1,27 @@
 ---
 title: HTTP status codes
-description: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+description: Learn why it's important to be consistent and adhere to standards with HTTP status response codes
 meta:
   - name: "og:description"
-    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+    content: Learn why it's important to be consistent and adhere to standards with HTTP status response codes
   - name: keywords
-    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+    content: design API OAS OpenAPI documentation style guide response status codes http https
 tags:
-  - OpenAPI
-  - OAS
-  - summaries
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - http
+  - status
+  - response
+  - codes
+  - success
+  - error
+  - https
 ---
 
 <Header/>
