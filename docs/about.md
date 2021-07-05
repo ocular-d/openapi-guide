@@ -1,12 +1,28 @@
-# Why an API guide
+---
+title: Why an API guide
+description: Consistency and useability are a must for stunning APIs
+meta:
+  - name: "og:description"
+    content: Consistency and useability are a must
+  - name: keywords
+    content: Consistency and useability are a must
+tags:
+  - consistency
+  - useability
+  - guide
+  - style
+  - API
+---
+
+<Header/>
+
+---
 
 Despite of what an API can technically do or not do, one of the terms that compose the acronym is "Interface".
-An API is, at the end of the day, yet another interface. It's just one you build using only words.
-This also mean that it lacks all the visual cues and signifiers that graphic interfaces have.
+An API is, at the end of the day, yet another interface.
 
-As such, not only machines need to make sense of it. Developers must understand it too.
-And, as tech-savvy as they might be, they're still humans.
-For this, keeping users (replace with *consumers*) and usability at the core of your work around APIs is a must.
+Keeping users (replace with *consumers*) and usability at the core of your work around APIs is a must.
+
 But how does one remove friction from APIs and make them usable?
 
 Because APIs only rely on words, consistency, examples, extensibility, and writing are of outmost importance.
@@ -16,7 +32,7 @@ become a great tool to ensure that a pleasant experience is created even if "it'
 The key is [adopting an outside-in perspective](https://stoplight.io/blog/why-you-should-view-your-apis-as-products/#1.-adopt-an-outside-in-perspective)
 and putting yourself in the shoes of who uses your API all the time.
 
-For these reasons, we put together a set of best practices and recommendations that,
+For these reasons, we put together a set of good practices and recommendations that,
 if followed throughout the entire API lifecycle and regardless of the API type,
 can ensure that the product is an API users love using.
 

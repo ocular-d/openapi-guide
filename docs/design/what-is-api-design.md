@@ -1,6 +1,24 @@
-# What is API design
+---
+title: What is API design
+description: The process of planning and making architectural decisions when building an API
+sidebarDepth: 2
+meta:
+  - name: "og:description"
+    content: The process of planning and making architectural decisions when building an API
+  - name: keywords
+    content: The process of planning and making architectural decisions when building an API
+tags:
+  - OpenAPI
+  - OAS
+  - design
+  - style
+  - guide
+---
 
-API design is the process of planning and making architectural decisions when building an API.
+<Header/>
+
+---
+
 Designing something involves adopting processes and practices that put users at the center.
 As such, designing APIs means considering that they're used by humans.
 
