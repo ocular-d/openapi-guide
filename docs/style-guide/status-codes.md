@@ -17,7 +17,6 @@ tags:
 <Header/>
 
 ---
-# HTTP status codes
 
 Giving relevant feedback to users on the status of each operation
 can mark the difference between a good and a bad API experience.

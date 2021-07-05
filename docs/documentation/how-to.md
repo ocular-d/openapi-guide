@@ -33,4 +33,3 @@ Other common tutorials are "Common Errors" which explain how your error objects 
 what [common status codes](../style-guide/status-codes) mean,
 that you don't need to document `500`, `501`, `502` on every single operation,
 and any other useful information that can help users troubleshoot their experience.
-

@@ -38,9 +38,9 @@ to create full-fledged applications that use the data you expose.
 Completeness is a goal, not a starting point.
 However, it should be a milestone that is considered from the beginning and that every API contributor strives towards
 
-<!-- markdownlint-enable -->
-
 ## Features of a pragmatic RESTful API
+
+<!-- markdownlint-enable -->
 
 [Source](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api "Best Practices for Designing a Pragmatic RESTful API by Vinay Sahni")
 
