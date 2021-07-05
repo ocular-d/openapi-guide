@@ -23,8 +23,12 @@ tags:
 
 ---
 
+<!--alex disable easy-->
+
 Tutorials are similar to getting started guides, but with the goal of making it easy to perform a particular use case.
 You can create a tutorial folder, and add more articles to it covering extra topics as questions come in.
+
+<!--alex enable easy-->
 
 For example, things like pagination are somewhat covered in API reference documentation.
 Maybe a query string parameter exists like `?page=1` or `?cursor=s24dfkjfhkdf`, and whilst some developers might understand that, many won't.

@@ -101,7 +101,7 @@ all names used by an API should be:
 
 This includes names of interfaces, resources, collections, methods, and messages.
 
-Since many developers are not native English speakers, one goal of these naming conventions is to ensure that the majority of developers can easily understand an API.
+Since many developers are not native English speakers, one goal of these naming conventions is to ensure that the majority of developers can understand an API.
 It does this by encouraging the use of a simple, consistent, and small vocabulary when naming methods and resources.
 
 Commonly accepted short forms or abbreviations of long words may be used for brevity.

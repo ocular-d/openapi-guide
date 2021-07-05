@@ -32,6 +32,7 @@ your design will influences how well developers and systems can consume the API 
 Let's look at the features of a well-designed API:
 
 <!-- markdownlint-disable -->
+<!--alex disable easy-->
 
 - It focuses on its users
 - It meets initial expectations and continues to behave consistently and predictably
@@ -56,6 +57,8 @@ Many of the API design opinions found on the web are academic discussions revolv
 - It should provide enough flexibility to power majority of the Enchant UI
 - It should be efficient, while maintaining balance with the other requirements
 - An API is a developer's UI - like any UI, it's important to ensure the user's experience is thought out
+
+<!--alex enable easy-->
 
 ## Public vs Internal vs System
 
