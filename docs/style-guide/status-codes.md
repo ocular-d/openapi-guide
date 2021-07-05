@@ -1,9 +1,26 @@
+---
+title: HTTP status codes
+description: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+meta:
+  - name: "og:description"
+    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+  - name: keywords
+    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+tags:
+  - OpenAPI
+  - OAS
+  - summaries
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 # HTTP status codes
 
 Giving relevant feedback to users on the status of each operation
 can mark the difference between a good and a bad API experience.
-
-To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes.
 
 Doing so gives both consumers and maintainers of the API enough information to understand what's going on.
 Also, assume that your API will make errors, or that users will when using it.

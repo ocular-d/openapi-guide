@@ -1,4 +1,22 @@
-# Descriptions
+---
+title: Descriptions
+description: Users will use them to understand your API
+meta:
+  - name: "og:description"
+    content: Users will use them to understand your API
+  - name: keywords
+    content: Users will use them to understand your API
+tags:
+  - OpenAPI
+  - OAS
+  - descriptions
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 Descriptions are among the pieces of an API that are most consumed by humans
 and they can be added to almost every element of an API.

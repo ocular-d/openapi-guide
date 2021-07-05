@@ -1,11 +1,30 @@
-# Security
+---
+title: Security
+description: General basic security
+meta:
+  - name: "og:description"
+    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+  - name: keywords
+    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+tags:
+  - OpenAPI
+  - OAS
+  - security
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 ## Access Control
 
 It's safer to approach access control assuming that not every user has a right to every web service.
 One of the benefits of such approach is that it prevents users from misusing administrative web services.
+
 To ensure that privileged collections or actions are properly protected from unauthorized use,
-the API key SHOULD be sent along as a cookie, body parameter, or HTTP message header.
+the API key **SHOULD** be sent along as a cookie, body parameter, or HTTP message header.
 
 Every API **must be** authenticated before it can be used.
 

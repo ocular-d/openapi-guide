@@ -1,6 +1,22 @@
-# Naming
+---
+title: Naming
+description: A collection of best practices to follow in regards to naming your API items
+meta:
+  - name: "og:description"
+    content: A collection of best practices to follow in regards to naming your API items
+  - name: keywords
+    content: A collection of best practices to follow in regards to naming your API items
+tags:
+  - OpenAPI
+  - OAS
+  - naming
+  - style
+  - guide
+---
 
-A collection of best practices to follow in regards to naming your API items.
+<Header/>
+
+---
 
 ## Consistent naming
 

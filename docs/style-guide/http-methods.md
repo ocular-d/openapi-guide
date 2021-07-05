@@ -1,4 +1,22 @@
-# HTTP methods
+---
+title: HTTP methods
+description: List of commonly used HTTP methods
+meta:
+  - name: "og:description"
+    content: List of commonly used HTTP methods
+  - name: keywords
+    content: List of commonly used HTTP methods
+tags:
+  - OpenAPI
+  - OAS
+  - summaries
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 All resources have a set of methods that they support and that allow to manage the data they expose.
 Each method allows for a unique type of action on the data.

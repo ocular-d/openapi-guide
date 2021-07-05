@@ -1,8 +1,25 @@
-# Resources, collections, URLs
+---
+title: Resources, collections, URLs
+description: What are these and style is important
+meta:
+  - name: "og:description"
+    content: What are these and style is important
+  - name: keywords
+    content: What are these and style is important
+tags:
+  - OpenAPI
+  - OAS
+  - naming
+  - style
+  - guide
+---
+
+<Header/>
+
+---
 
 ## Resources
 
-Resources are fundamental to the concept of REST.
 A resource is an object that’s important enough to be referenced in itself.
 
 A resource has data, relationships to other resources, and methods that operate against it to allow for accessing and manipulating the associated information.
@@ -17,7 +34,7 @@ A Uniform Resource Locator (URL) identifies the online location of a resource.
 This URL points to the location where your API’s resources exist.
 The base URL is the consistent part of this location.
 
-In the case of a photosharing app, one could expose data about the users who use the app through collections and resources, accessed by the appropriate URL.
+In the case of a photo sharing app, one could expose data about the users who use the app through collections and resources, accessed by the appropriate URL.
 
 `/users`: a collection of users
 
