@@ -14,7 +14,9 @@ tags:
   - API
   - about
   - OAS
-  - OpenAPI
+  - openAPI
+  - swagger
+  - documentation
 ---
 
 <Header/>

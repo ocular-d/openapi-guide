@@ -20,6 +20,7 @@ tags:
   - thanks
   - open
   - source
+  - documentation
 ---
 
 <Header/>

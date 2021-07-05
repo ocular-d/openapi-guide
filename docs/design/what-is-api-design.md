@@ -16,6 +16,7 @@ tags:
   - openAPI
   - swagger
   - UX
+  - documentation
 ---
 
 <Header/>
