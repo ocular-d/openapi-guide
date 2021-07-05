@@ -1,7 +1,6 @@
 ---
 title: Resources
 description: Videos and other resources
-sidebarDepth: 2
 meta:
   - name: "og:description"
     content: Videos and other resources
