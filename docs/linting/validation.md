@@ -1,12 +1,11 @@
 ---
 title: Validate your API with Spectral
-description: Validating APIs with Spectral
+description: Tools like Spectral allow you to validate that your API adheres to standards
 meta:
   - name: "og:description"
-    content: Validating APIs with Spectral
+    content: Tools like Spectral allow you to validate that your API adheres to standards
   - name: keywords
-    content: Validating APIs with Spectral
-tags:
+    content: design API OAS OpenAPI documentation style guide tools spectral validate validation
   - design
   - style
   - guide
