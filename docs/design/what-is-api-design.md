@@ -1,18 +1,21 @@
 ---
 title: What is API design
-description: The process of planning and making architectural decisions when building an API
+description: Learn what design means, when applied to APIs
 sidebarDepth: 2
 meta:
   - name: "og:description"
-    content: The process of planning and making architectural decisions when building an API
+    content: Learn what design means, when applied to APIs
   - name: keywords
-    content: The process of planning and making architectural decisions when building an API
+    content: design style guide what is api features UX
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
 ---
 
 <Header/>
