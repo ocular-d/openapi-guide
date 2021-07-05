@@ -7,11 +7,19 @@ meta:
   - name: keywords
     content: Validating APIs with Spectral
 tags:
-  - OpenAPI
-  - OAS
   - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - linting
+  - tools
+  - spectral
+  - validate
+  - validation
 ---
 
 <Header/>
