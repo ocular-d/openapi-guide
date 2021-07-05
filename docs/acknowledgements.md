@@ -4,7 +4,7 @@ description: This guide openly draws inspiration and knowledge from other open s
 sidebarDepth: 2
 meta:
   - name: "og:description"
-    content: OpenAPI design and style guide introduction
+    content: This guide openly draws inspiration and knowledge from other open source projects. Thank you!
   - name: keywords
     content: API style guide design introduction about consistency usability why documentation openAPI OAS swagger acknowledgements
 tags:

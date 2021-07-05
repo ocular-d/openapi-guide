@@ -1,17 +1,27 @@
 ---
 title: Security
-description: General basic security
+description: Security is a feature everyone looks for when choosing an API. Make sure yours is a secure one.
 meta:
   - name: "og:description"
-    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+    content: Security is a feature everyone looks for when choosing an API. Make sure yours is a secure one.
   - name: keywords
-    content: To prevent confusion for API users, handle errors gracefully and return standard HTTP response codes
+    content: design API OAS OpenAPI documentation style guide features security permissions access headers CSRF CORS
 tags:
-  - OpenAPI
-  - OAS
-  - security
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - security
+  - permissions
+  - headers
+  - access
+  - control
+  - CSRF
+  - CORS
 ---
 
 <Header/>

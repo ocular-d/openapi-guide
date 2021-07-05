@@ -3,7 +3,7 @@ title: About
 description: An API guide ensures consistency and usability, which are a must for a stunning experience. It also ensures that API documentation makes sense for humans and machines alike.
 meta:
   - name: "og:description"
-    content: An API guide ensures consistency and usability
+    content: An API guide ensures consistency and usability, which are a must for a stunning experience. It also ensures that API documentation makes sense for humans and machines alike.
   - name: keywords
     content: API style guide design introduction about consistency usability why documentation
 tags:

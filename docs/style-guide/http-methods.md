@@ -1,17 +1,23 @@
 ---
 title: HTTP methods
-description: List of commonly used HTTP methods
+description: List of commonly-used HTTP methods
 meta:
   - name: "og:description"
     content: List of commonly used HTTP methods
   - name: keywords
-    content: List of commonly used HTTP methods
+    content: design API OAS OpenAPI documentation style guide methods http https
 tags:
-  - OpenAPI
-  - OAS
-  - summaries
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - documentation
+  - http
+  - methods
+  - https
 ---
 
 <Header/>

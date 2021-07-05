@@ -1,17 +1,22 @@
 ---
 title: Summaries
-description: Users often use them to understand whether an endpoint or item is relevant to them
-meta:
+description: Learn what summaries are, how to design them, and why they're important for your users
   - name: "og:description"
-    content: Users often use them to understand whether an endpoint or item is relevant to them
+    content: Learn what summaries are, how to design them, and why they're important for your users
   - name: keywords
-    content: Users often use them to understand whether an endpoint or item is relevant to them
+    content: summaries design API OAS OpenAPI documentation naming style guide
 tags:
-  - OpenAPI
-  - OAS
-  - summaries
+  - design
   - style
   - guide
+  - API
+  - OAS
+  - openAPI
+  - swagger
+  - UX
+  - documentation
+  - naming
+  - summaries
 ---
 
 <Header/>
