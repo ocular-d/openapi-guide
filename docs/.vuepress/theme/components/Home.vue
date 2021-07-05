@@ -8,10 +8,9 @@
         <div class="inner">
         <div id="hero_header">
           <div class="hero-left">
-            <img class="hero-logo" v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'lando logo'">
+            <img class="hero-logo" v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'logo'">
           </div>
           <div class="hero-right">
-            <!-- <h2 class="hide">Lando</h2> -->
             <h1>OpenAPI Guide<br/> Design - Style - Docs</h1>
             <p>
               <a class="button has-icon" href="/openapi-guide/about">
@@ -26,6 +25,7 @@
         </div>
       </div>
     <!-- <header class="hero"> -->
+      
       <!-- <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
@@ -133,7 +133,16 @@ export default {
       &.transparent
         background-color: transparent
         color: $landoPink
-  
+  header
+    background-color: #fff
+    height: 60px
+    padding: 10px 60px
+    // position: absolute
+    z-index: 100
+  header.navbar
+    border: 0
+    .logo
+      display: none
   padding $navbarHeight 2rem 0
   max-width $homePageWidth
   margin 0px auto
