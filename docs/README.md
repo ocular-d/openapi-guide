@@ -14,7 +14,7 @@ features:
   details: Standards for consistent, stable and extendable APIs
 - title: Documentation
   details: Beautiful reference docs, quick-start guides and tutorials are part of awesome APIs
-footer: Made with ❤ by people
+#footer: Made with ❤ by people
 ---
 
 
