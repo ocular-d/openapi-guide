@@ -34,7 +34,7 @@ Doing so allows to apply some principles of design thinking to the API, such as:
 
 ## Some design-first principles
 
-As mentioned in the [Acknowledgments section](../acknowledgements.md "Acknowledgements), this guide is a collection
+As mentioned in the [Acknowledgments section](../acknowledgements.md "Acknowledgements"), this guide is a collection
 of ideas and best practices from world-class API providers.
 
 The best way to understand the benefits of design-first APIs is
