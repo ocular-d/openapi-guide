@@ -23,7 +23,7 @@ tags:
 <Header/>
 
 ---
-<!--vale disable -->
+<!--vale off -->
 <!--alex disable -->
 
 ## Why we need API Governance
@@ -91,4 +91,4 @@ An example of this would be ensuring that all the “MUST” OpenAPI violations 
 before an API can be transitioned from UAT to Production environments.
 
 <!--alex enable -->
-<!--vale enable -->
+<!--vale on -->
