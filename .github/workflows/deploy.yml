@@ -1,0 +1,54 @@
+name: Deploy
+
+on:
+  # Trigger the workflow on pull request,
+  # but only for the master branch for changes in /docs
+  pull_request:
+    types: [ closed ]
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+jobs:
+  build:
+    # this job will only run if the PR has been merged
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    name: Checkout and build
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('yarn.lock')}}
+
+      - name: Install
+        working-directory: .
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
+
+      - name: Build
+        working-directory: .
+        run: yarn docs:build
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: 'docs/.vuepress/dist'
+          production-branch: main
+          #production-deploy: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
+          enable-pull-request-comment: false
+          enable-commit-comment: true
+          overwrites-pull-request-comment: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
