@@ -20,6 +20,10 @@ tags:
   - deprecation
 ---
 
+<Header/>
+
+---
+
 ## Versioning
 
 API specifications are always subjected to change. The addition of new enhancements and abandonment of older features is the norm of any product, and APIs are no different.  API versioning is the best way to keep track of these changes. Moreover, API versioning is also the basis for managing the lifecycle progression of APIs. It helps in managing the deprecating and retirement of APIs gracefully.
