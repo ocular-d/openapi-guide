@@ -30,7 +30,7 @@ tags:
 
 ---
 
-You can use CI/CD tools, such as GutHub Actions, to validate APIs with tools like Spectral.
+You can use CI/CD tools, such as GitHub Actions, to validate APIs with tools like Spectral.
 
 [This action](https://github.com/stoplightio/spectral-action) uses [Spectral](https://github.com/stoplightio/spectral) from [Stoplight](https://stoplight.io/) to lint your OpenAPI documents, or any other JSON/YAML files.
 

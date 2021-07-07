@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   # Trigger the workflow on pull request,
-  # but only for the master branch for changes in /docs
+  # but only for the main branch for changes in /docs
   pull_request:
     types: [ closed ]
     branches:
