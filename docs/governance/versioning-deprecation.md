@@ -1,5 +1,5 @@
 ---
-title: Principles
+title: Versioning and deprecation
 description: Why governance is good for your organization and what to consider when creating your governance strategy
 meta:
   - name: "og:description"

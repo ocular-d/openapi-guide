@@ -1,6 +1,7 @@
 ---
 title: Principles
 description: Why governance is good for your organization and what to consider when creating your governance strategy
+sidebarDepth: 0
 meta:
   - name: "og:description"
     content: Why governance is good for your organization and what to consider when creating your governance strategy
