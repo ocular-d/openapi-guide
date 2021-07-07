@@ -78,7 +78,7 @@ module.exports = {
     },
     {
       title: 'Documentation',
-      // path: '/linting/',
+      // path: '/documentation/',
       collapsable: false,
       children: [
         'documentation/api-reference',
@@ -87,6 +87,15 @@ module.exports = {
         'documentation/generate',
       ]
   },
+    {
+    title: 'Governance',
+    // path: '/governance/',
+    collapsable: false,
+    children: [
+      'governance/principles',
+      'governance/versioning-deprecation',
+    ]
+},
   ]
   }
 }
