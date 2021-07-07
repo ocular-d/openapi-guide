@@ -24,6 +24,9 @@ tags:
 
 ---
 
+<!--vale disable -->
+<!--alex disable -->
+
 ## Versioning
 
 API specifications are always subjected to change. The addition of new enhancements and abandonment of older features is the norm of any product, and APIs are no different.  API versioning is the best way to keep track of these changes. Moreover, API versioning is also the basis for managing the lifecycle progression of APIs. It helps in managing the deprecating and retirement of APIs gracefully.
@@ -36,7 +39,7 @@ Sunsetting and deprecation are often used almost interchangeably, and though the
 
 When an API is deprecated, this means an API is not usable in its current form for the purpose intended. This usually means that a new version has been created, or the underlying business supporting the API is no longer intending on supporting it. Any number of reasons can underly deprecation, but the fundamental nature of deprecation is that it represents a line in the sand – once something is deprecated, it should no longer be used.
 
-That’s not to say that deprecation means the totality of the offering is dead in all cases, however. Certain functions of the API can be deprecated while allowing the rest of the API to keep working. This is the case with special features, versions of the API for specific implementations, and perhaps most often, with legacy supported APIs which have fallen outside of the support period.
+That’s not to say that deprecation means the totality of the offering is gone in all cases, however. Certain functions of the API can be deprecated while allowing the rest of the API to keep working. This is the case with special features, versions of the API for specific implementations, and perhaps most often, with legacy supported APIs which have fallen outside of the support period.
 
 Here is how the IETF defines The Deprecation HTTP Header:
 
@@ -131,3 +134,6 @@ Use technical communication: Use Deprecation and Sunset HTTP header fields.
 Communicate on social channels: Use non-technical communication as well, like Twitter, emails, forum notices, etc.
 
 Be clear: Use clarity when communicating sunset time length.
+
+<!--alex enable -->
+<!--vale enable -->

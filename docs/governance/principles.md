@@ -23,6 +23,8 @@ tags:
 <Header/>
 
 ---
+<!--vale disable -->
+<!--alex disable -->
 
 ## Why we need API Governance
 
@@ -39,7 +41,7 @@ reducing discrepancies among teams and streamlining the review and validation pr
 From a user perspective, maintaining consistency among use,
 models or endpoint and parameter naming makes your APIs easier to understand,
 especially when you’re dealing with a highly complex internal backend and logic.
-Once a user has integrated one of your APIs, it becomes easy to understand and integrate others.
+Once a user has integrated one of your APIs, it becomes easier to understand and integrate others.
 
 ## Have one set of enterprise-wide API governance rules
 
@@ -87,3 +89,6 @@ to be validated against and any violations resolved while you’re still in desi
 
 An example of this would be ensuring that all the “MUST” OpenAPI violations are addressed
 before an API can be transitioned from UAT to Production environments.
+
+<!--alex enable -->
+<!--vale enable -->
