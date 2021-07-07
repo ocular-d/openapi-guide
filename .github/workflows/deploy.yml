@@ -43,7 +43,7 @@ jobs:
         with:
           publish-dir: 'docs/.vuepress/dist'
           production-branch: main
-          #production-deploy: true
+          production-deploy: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
           enable-pull-request-comment: false
