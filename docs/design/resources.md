@@ -39,6 +39,8 @@ A collection of resources to delve into API design principles and best practices
 
 <YouTube url="https://www.youtube.com/embed/twfufQn1mD0" />
 
+<YouTube url="https://www.youtube.com/embed/n94EXZ8exXY" />
+
 ## Podcast
 
 - [The API Design-First philosophy](https://open.spotify.com/episode/6Dga1u4Ar4xUrPRxdapFJT)

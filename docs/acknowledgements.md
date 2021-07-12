@@ -68,5 +68,5 @@ A big thanks goes to:
 - [Michael Amundsen](https://twitter.com/mamund)
 - [Arnaud Lauret](https://apihandyman.io/)
 - [VMware](https://www.vmware.com/)
-
-
+- [API THE Docs](https://apithedocs.org/)
+- [Leah R. Tucker](https://yourapis.co/)
