@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   customFields: {
     description:
       'An optimized site generator in React. Docusaurus helps you to move fast and write content. Build documentation websites, blogs, marketing pages, and more.',
@@ -38,17 +38,17 @@ module.exports = {
     },
     navbar: {
       title: 'OpenAPI Guide',
-      logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',
-      },
+      //logo: {
+      //  alt: 'Logo',
+      //  src: 'img/logo.svg',
+      //},
       items: [
         {
           //type: 'doc',
-          docId: 'upload',
-          to: '/tutorials/upload',
+          docId: 'overview',
+          to: '/overview',
           position: 'left',
-          label: 'Tutorials',
+          label: 'Overview',
         },
         {
           //type: 'doc',
