@@ -2,6 +2,8 @@ name: Editorial Checks
 
 on:
   push:
+    branches:
+      - main
     paths:
     - 'docs/**'
 

@@ -2,6 +2,8 @@ name: LinkCheck
 
 on:
   pull_request:
+    branches:
+      - main
     paths:
     - 'docs/**'
   push:
