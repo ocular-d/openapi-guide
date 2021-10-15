@@ -1,29 +1,40 @@
 {
   "name": "openapi-guide",
-  "version": "1.0.0",
-  "description": "OpenAPI design and style guide",
-  "main": "index.js",
-  "repository": "git@github.com:ocular-d/openapi-guide.git",
-  "author": "sven <sven@so36.net>",
-  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:alex": "alex ./docs",
-    "docs:vale": "./node_modules/.bin/vale docs",
-    "docs:markdown": "./node_modules/.bin/markdownlint docs/**/*.md",
-    "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md' ! -path './archive/*' | xargs -L1 markdown-link-check -c .mlc_config.json --quiet"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
-  "devDependencies": {
-    "@arkweid/lefthook": "^0.7.6",
-    "@ocular-d/vale-bin": "^1.0.7",
-    "@stoplight/spectral": "^5.9.1",
-    "@xiaopanda/vuepress-plugin-code-copy": "^1.0.3",
-    "alex": "^9.1.0",
-    "markdown-link-check": "^3.8.7",
-    "markdownlint-cli": "^0.27.1",
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-element-tabs": "^0.2.8",
-    "vuepress-plugin-reading-time": "^0.1.1"
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
+    "@mdx-js/react": "^1.6.21",
+    "@svgr/webpack": "^5.5.0",
+    "clsx": "^1.1.1",
+    "file-loader": "^6.2.0",
+    "prism-react-renderer": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "url-loader": "^4.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
