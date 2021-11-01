@@ -1,6 +1,7 @@
 div[class^='announcementBarContent'] {
     alignment: center;
-    background-color: #0D65BE;
+    /* background-color: #0D65BE; */
+    background-color: #6275d7;
     color: #F0F0F0;
     /*box-shadow: inset 0 -1px 0 #0E75DD !important;*/
     font-size: 17px;
@@ -43,3 +44,4 @@ button[class^='announcementBarBadge'] {
    text-align: center;
    color: #1E2127;
 }
+

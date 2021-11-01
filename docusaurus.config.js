@@ -38,10 +38,10 @@ module.exports = {
     },
     navbar: {
       title: 'OpenAPI Guide',
-      //logo: {
-      //  alt: 'Logo',
-      //  src: 'img/logo.svg',
-      //},
+      logo: {
+        alt: 'Logo',
+        src: 'img/ocld-logo.png',
+      },
       items: [
         {
           //type: 'doc',
@@ -57,7 +57,13 @@ module.exports = {
           position: 'left',
           label: 'Guides',
         },
-        {to: '/help', label: 'Support', position: 'left'},
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+        //{to: '/help', label: 'Support', position: 'left'},
 
       ],
     },
@@ -65,15 +71,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Guides',
           items: [
             {
-              label: 'Tutorials',
-              to: '/changelog',
+              label: 'Editorial Style Guide',
+              href: 'https://editorial.ocular-d.tech/',
             },
             {
-              label: 'Guides',
-              to: '/changelog',
+              label: 'Markdown Style Guide',
+              href: 'https://ocular-d.github.io/styleguide-markdown/',
             },
           ],
         },
@@ -81,20 +87,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Slack',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-            {
-              label: 'Something',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Awesome Docs',
+              href: 'https://github.com/testthedocs/awesome-docs',
             },
           ],
         },
@@ -102,21 +96,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Roadmap',
-              to: '/changelog',
+              label: 'GitHub',
+              href: 'https://github.com/ocular-d',
             },
-            {
-              label: 'Training',
-              to: '/changelog',
-            },
-            // {
-            //   label: 'GitHub',
-            //   href: 'https://github.com/facebook/docusaurus',
-            // },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Plone Community. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ocular-d. Built with Docusaurus.`,
     },
   },
   presets: [
