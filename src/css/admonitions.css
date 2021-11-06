@@ -49,7 +49,7 @@
 }
 
 .admonition-tip {
-    border-left: 5px solid #01c3a5;
+    border-left: 5px solid #e28ddc;
     color: #474c55;
     margin-left: 50px;
     margin-right: 25px;
@@ -72,7 +72,7 @@
 
 .admonition-tip .admonition-icon svg {
     stroke: #474c55;
-    fill: #01c3a5;
+    fill: #e28ddc;
 }
 
 .admonition-caution {
