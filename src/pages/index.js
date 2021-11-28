@@ -1,40 +1,60 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import React from "react";
+import classnames from "classnames";
+import Layout from "@theme/Layout";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { Features } from "../components/features";
+import { Buttons } from "../components/buttons";
+import { Dedication } from "../components/dedication";
+import styles from "./styles.module.css";
+import Head from "@docusaurus/Head";
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+
+const Header = () => {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
+    <div className={styles.header}>
+      <h1 className={styles.headingOne}>
+      OpenAPI Guide
+      </h1>
+      <p className={styles.description}>
+      Design stunning REST APIs with the focus on functionality, usability and a nice user experience
+      </p>
+      <Buttons />
+    </div>
   );
-}
+};
 
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+function Home() {
+  const context = useDocusaurusContext();
+  const { siteConfig = {} } = context;
+  const { title, tagline, url, favicon } = siteConfig;
+
+  const ogImage = `${url}/img/default.jpg`;
+
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      title={title}
+      description={tagline}
+      ogImage={ogImage}
+      url={url}
+      favicon={favicon}
+    >
+      <Head>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+      </Head>
+      <header
+        id="hero"
+        className={classnames("hero hero--primary", styles.heroBanner)}
+      >
+        <div className="container">
+          <Header />
+        </div>
+      </header>
+      <Dedication />
+      <Features />
+      <div className={styles.cta}>
+      </div>
     </Layout>
   );
 }
+
+export default Home;

@@ -17,14 +17,14 @@ module.exports = {
   //   require.resolve('@cmfcmf/docusaurus-search-local')
   // ],
   themeConfig: {
-    announcementBar: {
-      id: 'support_us', // Any value that will identify this message.
-      content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
-      isCloseable: false, // Defaults to `true`.
-    },
+    // announcementBar: {
+    //   id: 'support_us', // Any value that will identify this message.
+    //   content:
+    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+    //   backgroundColor: '#fafbfc', // Defaults to `#fff`.
+    //   textColor: '#091E42', // Defaults to `#000`.
+    //   isCloseable: false, // Defaults to `true`.
+    // },
     colorMode: {
       // "light" | "dark"
       defaultMode: 'light',
@@ -63,12 +63,13 @@ module.exports = {
           target: '_self',
           position: 'right',
           className: 'btn btn-primary',
+          //className: 'button button--secondary button--lg'
         },
         {
           href: 'https://github.com/facebook/docusaurus',
           position: 'right',
           className: 'header-github-link',
-          'aria-label': 'GitHub repository',
+          
         },
         //{to: '/help', label: 'Support', position: 'left'},
 
