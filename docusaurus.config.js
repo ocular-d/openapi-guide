@@ -58,6 +58,13 @@ module.exports = {
           label: 'Guides',
         },
         {
+          label: 'API Explorer',
+          to: '/api',
+          target: '_self',
+          position: 'right',
+          className: 'btn btn-primary',
+        },
+        {
           href: 'https://github.com/facebook/docusaurus',
           position: 'right',
           className: 'header-github-link',
@@ -132,7 +139,23 @@ module.exports = {
         },
       },
     ],
+    [
+      'redocusaurus',
+      {
+        specs: [
+          {
+            routePath: '/api/',
+            spec: 'openapi.yaml',
+          },
+        ],
+        theme: {
+          primaryColor: '#474c55',
+          redocOptions: { hideDownloadButton: false },
+        },
+      },
+    ],
   ],
+
   themes: [
     '@saucelabs/theme-github-codeblock',
   ],
