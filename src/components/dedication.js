@@ -11,7 +11,7 @@ export const Dedication = () => {
 					<div className="row">
 						<div className={classnames('col col--6')}>
 							<div className={styles.item}>
-								<img className={styles.featureImage} src="img/marketer.svg" alt="Individual and Agency Marketers" />
+								<img className={styles.featureImage} src="img/oas-logo.svg" alt="Individual and Agency Marketers" />
 								<h2>Individual and Agency Marketers</h2>
 								<p className={styles.description}>
 									The erxes platform is ideal for individual marketers managing multiple brands and web properties. All features of erxes are available across multiple instances of an erxes installation. This means you can manage all your properties in one place including customer service and Sales.

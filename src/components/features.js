@@ -8,30 +8,30 @@ const rows = [
 		title: "1",
 		features: [
 			{
-				title: "Customer Service & Ticketing",
+				title: "Design",
 				imageUrl: 'img/service.svg',
 				description: (
 					<>
-						Quickly start servicing any volume of customer tickets and customer service inquiries or complaints. Integrated into the entire framework, your customer service activities are no longer hidden in a separate system away from Sales and/or Marketing. 
+						Create stunning APIs with the focus on functionality, usability and a nice user experience.
 					</>
 				),
 			},
 			{
-				title: "Pop-ups, Lead capture and forms for serious websites",
+				title: "Style",
 				imageUrl: 'img/lead.svg',
 				even: true,
 				description: (
 					<>
-						Easily create forms, pop-ups and lead capture sequences that match your design, your format and using the images and text you know works for your business. If you don't know where to start, use one of our customizable forms.
+						Standards for consistent, stable and extendable APIs.
 					</>
 				),
 			},
 			{
-				title: "Email marketing and autoresponder sequences",
+				title: "Documentation",
 				imageUrl: 'img/marketing.svg',
 				description: (
 					<>
-						Your email campaigns are only limited by your own creativity and efforts. You are not limited with email sending limits that skyrocket out of control with high costs. Make unlimited autoresponders that fit your complete email or segmented lists.
+						Beautiful reference docs, quick-start guides and tutorials are part of awesome APIs.
 					</>
 				),
 			},

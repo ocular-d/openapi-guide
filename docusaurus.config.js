@@ -52,6 +52,13 @@ module.exports = {
         },
         {
           //type: 'doc',
+          docId: 'quickstart',
+          to: '/quickstart',
+          position: 'left',
+          label: 'Quickstart',
+        },
+        {
+          //type: 'doc',
           docId: 'upload',
           to: '/tutorials/upload',
           position: 'left',
@@ -69,7 +76,6 @@ module.exports = {
           href: 'https://github.com/facebook/docusaurus',
           position: 'right',
           className: 'header-github-link',
-          
         },
         //{to: '/help', label: 'Support', position: 'left'},
 
