@@ -47,7 +47,7 @@ paths:
 
 ### Description
 
-```yaml
+```yaml {4-5}
 paths:
   /todos:
     get:
@@ -76,7 +76,7 @@ Check the [detailed documentation about descriptions](../style/descriptions) for
 
 ### Summary
 
-```yaml
+```yaml {2}
 get:
   summary: List Todos
 ```
@@ -86,6 +86,47 @@ Short title that is displayed in the nav bar of the documentation.
 ✅ Max 3 words
 
 ❌ Don’t repeat the verb of the HTTP method, make it meaningful. For example *Get* → *List*
+
+### Tags
+
+Assign a `tag` to each endpoint.
+
+```yaml {5-6}
+paths:
+  /todos:
+    get:
+      summary: List Todos
+      tags:
+        - Info
+      operationId: get-todos
+```
+
+Specify `description` and `externalDocs` at the root level.
+
+```yaml
+tags:
+  - name: Info
+    description: "A short and useful description"
+    externalDocs: https://HERE-A-URL
+```
+
+### Operation ID
+
+```yaml {7}
+paths:
+  /todos:
+    get:
+      summary: List Todos
+      tags:
+        - Info
+      operationId: get-todos
+      description: |-
+        Returns a list of todos
+```
+
+✅ Must be unique
+
+`operationId` is a unique string used to identify an operation.
 
 ## Error Handling
 
