@@ -13,7 +13,7 @@ hide_table_of_contents: true
     <h2>Documentation</h2>
     <p>All about docs</p>
     <ul>
-        <li><a href="/web-apps/live-testing/live-cross-browser-testing">API Reference</a></li>
+        <li><a href="/quickstart">Quickstart</a></li>
         <li><a href="/mobile-apps/live-testing/live-mobile-app-testing/">Quick Start guides</a></li>
         <li><a href="/mobile-apps/live-testing/live-mobile-app-testing/">How-to tutorials</a></li>
     </ul>

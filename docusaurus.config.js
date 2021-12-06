@@ -51,18 +51,21 @@ module.exports = {
           label: 'Overview',
         },
         {
-          //type: 'doc',
-          docId: 'quickstart',
-          to: '/quickstart',
-          position: 'left',
-          label: 'Quickstart',
-        },
-        {
-          //type: 'doc',
-          docId: 'upload',
-          to: '/tutorials/upload',
-          position: 'left',
+          type: 'dropdown',
           label: 'Guides',
+          position: 'left',
+          items: [
+            {
+              label: 'Design',
+              href: 'https://www.facebook.com',
+            },
+            {
+              type: 'doc',
+              label: 'Style',
+              docId: 'quickstart',
+            },
+            // ... more items
+          ],
         },
         {
           label: 'API Explorer',

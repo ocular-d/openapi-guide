@@ -1,6 +1,9 @@
 # Dependencies
 /node_modules
 
+# Lefthook
+lefthook.yml
+
 # Production
 /build
 

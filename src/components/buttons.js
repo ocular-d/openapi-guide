@@ -12,7 +12,7 @@ export const Buttons = () => {
 					'button button--primary button--lg',
 					styles.getStarted,
 				)}
-				to={useBaseUrl('overview/getting-started/')}>
+				to={useBaseUrl('quickstart/')}>
 				Get Started
 			</Link>
 			<Link
